@@ -1,0 +1,6 @@
+#PHPSTORM PROJECT DIRECTORY
+.idea/
+
+#BRIGHT GENERATED FILES
+web/
+class-map.json
