@@ -23,7 +23,7 @@ abstract class TargetObtainer
         $pathParts = $this->path ? explode('/', $this->path) : [];
         $pathSize = sizeof($pathParts);
 
-        if ($_GET['draft'] == 'on') {
+        if (isset($_GET['draft']) and $_GET['draft'] == 'on') {
             return $this->getTargetResult($this->path, self::DRAFT_REQUEST, $pathSize == 0);
         }
 

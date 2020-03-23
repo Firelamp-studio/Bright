@@ -26,24 +26,24 @@ class Bright
         if (session_status() != PHP_SESSION_ACTIVE)
             session_start();
 
-        if (!isset($_SESSION['bright_db'])) {
-            $db = new BrightDB(self::getConfig()['database']);
+//        if (!isset($_SESSION['bright_db'])) {
+//            $db = new BrightDB(self::getConfig()['database']);
+//
+//            if (!$db->init()->getResult()) {
+//                http_response_code(500);
+//                die;
+//            }
+//            $db->createDB();
+//
+//            $_SESSION['bright_db'] = $db;
+//        } else {
+//            /** @var BrightDB $db */
+//            $db = $_SESSION['bright_db'];
+//            if (!$db->isConnectionAlive())
+//                $db->connect();
+//        }
 
-            if (!$db->init()->getResult()) {
-                http_response_code(500);
-                die;
-            }
-            $db->createDB();
-
-            $_SESSION['bright_db'] = $db;
-        } else {
-            /** @var BrightDB $db */
-            $db = $_SESSION['bright_db'];
-            if (!$db->isConnectionAlive())
-                $db->connect();
-        }
-
-        if (self::getConfig()['use_session_core']) {
+        if (self::getConfig()['preferences']['use_session_core']) {
             if (isset($_SESSION['bright_core'])) {
                 $this->core = $_SESSION['bright_core'];
             } else {

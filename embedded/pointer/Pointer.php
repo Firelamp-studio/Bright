@@ -34,11 +34,11 @@ class Pointer
         /**
          * Redirect in case of different protocol or calling gleam.php file
          */
-        if ($config['essentials']['bright_url'] != URL::getProtocol() . '://' . URL::getDomainName()
-            or URL::getFilename() == 'gleam.php') {
-            header('location: ' . $config['essentials']['bright_url'] . URL::getPath());
-            die;
-        }
+//        if ($config['essentials']['bright_url'] != URL::getProtocol() . '://' . URL::getDomainName()
+//            or URL::getFilename() == 'gleam.php') {
+//            header('location: ' . $config['essentials']['bright_url'] . URL::getPath());
+//            die;
+//        }
 
         /**
          * Redirect if calling homepage directly

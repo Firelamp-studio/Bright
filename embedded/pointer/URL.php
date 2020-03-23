@@ -36,7 +36,7 @@ class URL
     public static function getDomainName()
     {
         if (!self::$domainName)
-            self::$domainName = strtolower($_SERVER['HTTP_HOST']);
+            self::$domainName = 'localhost/bright'; //strtolower($_SERVER['HTTP_HOST']);
 
         return self::$domainName;
     }
