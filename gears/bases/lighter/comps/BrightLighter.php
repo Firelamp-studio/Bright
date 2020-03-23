@@ -23,13 +23,13 @@ class BrightLighter extends Lighter
 
         $isBase = $deployTarget->getTargetType() == TargetObtainer::BASEMOUNT_REQUEST;
         $relatedElement = $this->core;
+
         if ($isBase or $deployTarget->getTargetType() == TargetObtainer::GEAR_REQUEST) {
-            $relatedElement = $this->core->getJoint($deployTarget->getTarget())->getImplementedJoint();
-            if ($relatedElement) {
-                $path = ($isBase ? 'base/' : 'gear/') . $relatedElement->getID();
-                $deployTarget = TargetFactory::newInstance($path);
-            } else {
-                http_response_code(404);
+
+            $joint = $this->core->getJoint($deployTarget->getTarget());
+            if (isset($joint) and $joint->isOverridden() and $joint->isBase() == $isBase) {
+
+                header('location:' . URL::getSiteURL() . '/gear/' . $joint->getImplementedJoint()->getID());
                 die;
             }
         }
@@ -55,6 +55,7 @@ class BrightLighter extends Lighter
         $this->dispatchEvent('onPageObtained', ['page' => $page]);
 
         if ($devMode or !file_exists($pageDir)) {
+
             try {
                 $this->brazier->burnPage($devTarget, $deployTarget, $page);
             } catch (PageBuildFailedException $e) {

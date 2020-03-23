@@ -46,6 +46,14 @@ abstract class Joint
     }
 
     /**
+     * @return bool
+     */
+    public function isOverridden(): bool
+    {
+        return isset($this->overriderJoint);
+    }
+
+    /**
      * @return Joint
      */
     public function getImplementedJoint(): Joint
