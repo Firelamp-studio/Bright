@@ -1,0 +1,173 @@
+<localization>
+    <main-title>
+        <it><![CDATA[Mettermi in gioco &egrave; l&rsquo;unico modo che conosco per <b>imparare</b>]]></it>
+        <en><![CDATA[Getting in the game is the only way I know to <b>learn</b>]]></en>
+    </main-title>
+    <premise-title>
+        <it><![CDATA[PRIMA DI COMINCIARE]]></it>
+        <en><![CDATA[BEFORE STARTING]]></en>
+    </premise-title>
+    <premise>
+        <it><![CDATA[Qua non verrano elencate tutte le attivit&agrave; svolte relative al progetto ASL, ma verranno
+            esposte quelle che sono state per me le esperienze più significative e segnanti per il mio futuro
+            ]]></it>
+        <en><![CDATA[Here will not be listed all done activities on the ASL project, but only the most significant
+        experiences for my future]]></en>
+    </premise>
+    <third-year-title>
+        <it><![CDATA[TERZO ANNO]]></it>
+        <en><![CDATA[THIRD YEAR]]></en>
+    </third-year-title>
+    <third-year>
+        <it><![CDATA[
+            AceOne &egrave; stata la prima realt&agrave; lavorativa con cui ho avuto a che fare, una realt&agrave; in questo
+            caso di consulenza e gestione delle risorse.<br>
+            Il progetto in questione che dovevamo portare avanti, affiancati da un gruppo di ragazzi di quarta, era la
+            progettazione in tutte le sue fasi e lo sviluppo di un applicativo su Android e iOS. La realizzazione doveva
+            essere suddivisa in tutto il triennio ma tutto ci&ograve; rimase solo su carta, anche documentato sul loro
+            sito.<br>
+            Purtroppo non essendo il nostro tutor specializzato nella programmazione e complice la nostra preparazione
+            non adeguata sullo sviluppo di applicativi, non siamo stati in grado di produrre effettivamente il prodotto,
+            ma abbiamo approfittato del periodo per ricevere una formazione sulla gestione dei progetti, argomento che
+            avremo poi approfondito nel corso del quinto anno.
+        ]]></it>
+        <en><![CDATA[
+            AceOne was the first working reality I dealt with, a reality of advice and resource management.<br>
+            The project we had to carry on, supported by a group of fourth-graders, was the design and the development
+            of an App on Android and iOS. This project had to be divided through the three years but all this remained
+            only like an idea, but documented on their site.<br>
+            Unfortunately, our tutor was not specialized in programming
+            and with our inadequate preparation on the development of applications, we were not able to produce the product,
+            but we took advantage of the period to learn on project management, a topic that we will have studied in-depth
+            during the fifth year.]]></en>
+    </third-year>
+    <fourth-year-title>
+        <it><![CDATA[QUARTO ANNO]]></it>
+        <en><![CDATA[FOURTH YEAR]]></en>
+    </fourth-year-title>
+    <fourth-year-1>
+        <it><![CDATA[
+            Nel quarto anno si present&ograve; la possibilit&agrave; di svolgere l&rsquo;alternanza presso Tagshare
+            Corporation, ma per poter fare quest&rsquo;esperienza io e altri quattro siamo stati scelti dagli insegnanti
+            per sostenere un colloquio con Bertossa Daniel, CEO, fondatore di questa realt&agrave; ed ex studente del
+            Peano. Di questi cinque siamo stati scelti io e Simone Russo, data la sinergia che mostravamo per aver
+            gi&agrave; lavorato ad altri progetti di cui parleremo dopo.<br>
+        ]]></it>
+        <en><![CDATA[During the fourth year, there was the possibility to work during the school year at Tagshare Corporation,
+        but to be able to make this experience, I and four more guys were chosen by the teachers to hold an interview
+        with Bertossa Daniel, CEO, founder of this company and an ex-student of the Peano. Simone Russo and I were chosen
+        because we already worked together on other projects that we will talk about later.<br>]]></en>
+    </fourth-year-1>
+    <fourth-year-2>
+        <it><![CDATA[
+            Il nostro periodo di lavoro si &egrave; svolto durante le due settimane centrali di febbraio,
+            l&rsquo;obiettivo iniziale era imparare a muoverci e capire il funzionamento di Wordpress, ovvero una
+            piattaforma molto versatile per la creazione e gestione di un sito web. Iniziando a sperimentare ci&ograve;
+            che avevamo appreso, riuscimmo a prendere in carico un progetto per una startup, la quale ci richiese la
+            creazione di un sito vetrina (<a href="http://www.effediimmobili.it/" target="_blank">EffeDi Immobili</a>).<br>
+        ]]></it>
+        <en><![CDATA[Our work period took place during the two central weeks of February, the first goal was to learn about how Wordpress works,
+        a basic platform where you can create and manage a website. By starting experimenting with what we had learned,
+        we managed a project for a startup, which required us to create a showcase site (<a href="http://www.effediimmobili.it/" target="_blank">EffeDi Immobili</a>).<br>]]></en>
+    </fourth-year-2>
+    <fourth-year-3>
+        <it><![CDATA[
+            Grazie a questo incarico, decisi di approfondire alcuni meccanismi che stavano dietro ad un sito web.
+            Autonomamente decisi di effettuare ricerche accurate riguardo la programmazione Front-end, scoprendo molte
+            pratiche e strumenti molto potenti come Sass, le quali mi hanno permesso di raggiungere un&rsquo;ottima
+            padronanza in quest&rsquo;ambiente. Ho anche approfondito il linguaggio di programmazione Javascript e in
+            particolar modo la sua libreria JQuery, ci&ograve; mi ha permesso di allargare il cerchio della mia
+            conoscenza nella perfetta cura dello sviluppo lato Front-end.<br>
+        ]]></it>
+        <en><![CDATA[After that, I decided to learn moreabout the world of the website. I autonomously decided to carry out accurate
+        research regarding Front-end programming, discovering many very powerful practices and tools such as Sass,
+        which allowed me to achieve an excellent mastery of that.<br>]]></en>
+    </fourth-year-3>
+    <fourth-year-4>
+        <it><![CDATA[
+            Sotto nostra iniziativa per&ograve; il progetto ci port&ograve; in una scalata verso l&rsquo;alto partendo
+            da una richiesta minima, ovvero la realizzazione di un semplice sito vetrina, ad una creazione di una vera e
+            propria piattaforma, alla quale abbiamo lavorato quotidianamente per circa 5 mesi per poi, purtroppo, veder
+            questo progetto fallire, anche causa la nostra inesperienza nel mondo lavorativo.
+        ]]></it>
+        <en><![CDATA[I also carried out more information about Javascript and his JQuery library. However, under our initiative, the project
+        took us to start from a minimal request: the realization of a simple showcase site, to a creation of a real platform,
+        where we worked assiduously and daily for about 5 months, but, unfortunately, this project failed,
+        because we had no experiences in the working world.]]></en>
+    </fourth-year-4>
+    <fifth-year-title>
+        <it><![CDATA[QUINTO ANNO]]></it>
+        <en><![CDATA[FIFTH YEAR]]></en>
+    </fifth-year-title>
+    <fifth-year>
+        <it><![CDATA[In questo periodo non eravamo tenuti ad accumulare ore per due motivi, il primo perch&eacute;
+        avevamo messo da parte negli anni precedenti un numero considerevolmente superiore alle 400 ore previste, il
+        secondo perch&eacute; dato l&rsquo;abbassamento del numero di ore minimo per l&rsquo;ammissione all&rsquo;esame
+        di maturit&agrave;, i professori non hanno considerato opportuno farci spendere altro tempo fuori da scuola
+        anche in vista dell&rsquo;esame di stato.<br>
+        Ciononostante io e Simone Russo abbiamo mantenuto i contatti con Tagshare Corporation data la buona impressione
+        fatta da entrambe le parti, contatti che ci hanno portato a prendere in carico e completare due progetti
+        retribuiti, quali <a href="https://www.ambientainterni.it/" target="_blank">Ambienta interni</a> e un portale per un&rsquo;
+        importante rete di impresa italiana quale <a href="https://www.glgroupitaly.it/" target="_blank">G&L Group</a>.<br>
+        Inoltre abbiamo anche abbiamo anche aiutato a formare quattro ragazzi di quarta che ho poi assistito nella
+        realizzazione di un sito vetrina per un&rsquo;azienda di articoli da montagna
+        (<a href="https://www.trekkingsport.com/public_html/" target="_blank">Trekking Sport Avigliana</a>).]]></it>
+        <en><![CDATA[During the fifth year, we were not required to accumulate hours for two reasons, the first because we had a higher number
+        of hours stored in previous years than the expected 400 hours. The second was given by the lowering of the minimum hours for
+        admission to the matriculation exam, teachers didn't consider it appropriate to let us spend more time outside the school
+        in view of the state examination.<br>
+        Simone Russo and I maintained contacts with Tagshare Corporation because of the good impression made by both parties,
+        contacts that led us to take charge and complete two paid projects, such as
+        <a href="https://www.ambientainterni.it/" target="_blank">Ambienta interni</a> and a portal for an significant
+        Italian business network such as <a href="https://www.glgroupitaly.it/" target="_blank">G&L Group</a>.<br>
+        In addition, we also helped to train four fourth-graders whom I assisted in creating a showcase site for a mountain goods company
+        (<a href="https://www.trekkingsport.com/public_html/" target="_blank">Trekking Sport Avigliana</a>).]]></en>
+    </fifth-year>
+    <personal-title>
+        <it><![CDATA[ESPERIENZE PERSONALI]]></it>
+        <en><![CDATA[PERSONAL EXPERIENCE]]></en>
+    </personal-title>
+    <personal>
+        <it><![CDATA[Durante il periodo estivo tra il secondo e il terzo anno ho effettuato una specie di tirocinio
+        presso una casa di sviluppo software rivolto ad aziende. Tutto ci&ograve; mi ha permesso sia di approfondire il
+        linguaggio di programmazione Java, che di portarmi avanti con il programma scolastico del terzo anno, basato in
+        gran parte su ci&ograve; che ho raccolto durante questa esperienza volontaria. Poco dopo l&rsquo;inizio del
+        terzo anno ho ricevuto un&rsquo;offerta dal mio compagno di classe Simone Russo, il quale mi aveva invitato a
+        prender parte allo sviluppo di un piccolo videogioco insieme ad Alberto Pellegrino, un suo amico di vecchia
+        data. Questo piccolo progetto ha saputo &ldquo;accendere&rdquo; dentro di me qualcosa di pi&ugrave; profondo
+        del divertimento per un semplice svago, e questo &egrave; appunto LightUp, sviluppato grazie al motore grafico
+        &ldquo;Unreal Engine&rdquo;. Da tutto ci&ograve; si &egrave; sviluppata, oltre che un bagaglio di coscienza,
+        un&rsquo;energia molto forte data anche dal fatto di dover lavorare in un team cos&igrave; sinergico e
+        volenteroso. Questo progetto mi &egrave; stato anche d&rsquo;aiuto per capire le responsabilit&agrave; che ha
+        un membro quando diventa parte integrante di un team. In seguito a questo &ldquo;banco di prova&rdquo; sono
+        nati ulteriori progetti come ad esempio il gioco di carte chiamato Clever, ed un ulteriore videogioco, rimasto
+        purtroppo solo idea non realizzata chiamato Thinkers. Notando complicit&agrave; e capacit&agrave; presenti nel
+        team, si decise di cominciare a realizzare un videogioco molto pi&ugrave; complesso dal nome SkyRiders,
+        sviluppato per VR(Realtà Virtuale o Realtà Simulata), il quale purtroppo rimase incompiuto a causa di impegni e
+        doveri, ma prendeva sempre pi&ugrave; forma invece quella che sarebbe diventata &ldquo;Firelamp Studio e la
+        razionalità emotiva&rdquo;.
+            ]]></it>
+        <en><![CDATA[During the summer period, between the second and third years, I participated in a kind of internship at a software
+        development company aimed at companies. All this allowed me both to learn more and more the Java programming
+        language and to carry on with the third-year school program, based a lot on what I picked during this voluntary
+        experience. After the start of the third year, I received an offer from my classmate Simone Russo, who invited me
+        to take part in the development of a small video game, with Alberto Pellegrino, an old friend of Simone. This little
+        project has known how to &ldquo;turn on&ldquo; inside me, something more than entertainment for simple recreation, and
+        this is precisely LightUp, developed thanks to the graphic-engine &ldquo;Unreal Engine&rdquo;. From all these experiences.
+        I have developed a store of conscience, very strong energy also given by the fact of having to work in such a synergistically team.
+        This project also helped me to understand the responsibilities a member has when he becomes an integral part of a team.
+        After this &ldquo;test bench&rdquo; additional projects showed up in our mind, such as the card game called Clever, and
+        another video game, and unfortunately only an unrealized idea called Thinkers. With our complicity and abilities in the team,
+        it was decided to start making a video game much more complex called SkyRiders, developed for VR (Virtual Reality or
+        Simulated Reality), which unfortunately remained unfinished, but took more and more shape, instead another project would become
+        reality and it's named &ldquo;Firelamp Studio and emotional rationality&rdquo;.]]></en>
+    </personal>
+    <introduction-title>
+        <it>FireLamp e la razionalità emotiva</it>
+        <en>FireLamp and the emotional rationality</en>
+    </introduction-title>
+    <credit-footer>
+        <it><![CDATA[Le immagini di LightUp&copy; e Firelamp Studio&copy; sono state realizzate da <a href="https://bright.firelamp.it/it/russo-simone?draft=on">Russo Simone</a>]]></it>
+        <en><![CDATA[The LightUp&copy; and Firelamp Studio&copy;&rsquo;s images was made by <a href="https://bright.firelamp.it/it/russo-simone?draft=on">Russo Simone</a>]]></en>
+    </credit-footer>
+</localization>

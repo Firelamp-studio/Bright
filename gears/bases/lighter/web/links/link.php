@@ -1,0 +1,1 @@
+<span class="lighter-span-test">link: <span class="lighter-span-test-import"><?php echo 'Ecco ${test}[:Title:]'; ?></span></span>

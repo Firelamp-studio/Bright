@@ -1,0 +1,49 @@
+/*
+selector /selector description/
+{
+    positioning
+
+    property/transforming
+
+    styling
+
+    content
+
+   & nesting element
+}
+*/
+
+@import "#main";
+
+$front-header-height: 1.5rem;
+
+//----------------------------------------------------------------------------------------------------------------------
+.hE /*header Element*/
+{
+    flex: 0 1 auto;
+
+    background-color: transparent;
+
+    text-align: center;
+}
+
+#MFH //Main Frontend Header
+{
+    width: 100%;
+    @extend %d-flex;
+    justify-content: flex-start;
+
+    background-color: $header-bg-color;
+
+    padding: 0.5rem;
+
+    .fHi //Front header icon
+    {
+        font-size: $front-header-height;
+    }
+    .hE {
+        height: $front-header-height;
+
+    }
+
+}

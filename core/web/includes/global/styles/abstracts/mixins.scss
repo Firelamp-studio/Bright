@@ -1,0 +1,45 @@
+//--------Property mixins
+@mixin use-align-content($property) {
+    -webkit-align-content: $property;
+    align-content: $property;
+}
+
+@mixin use-align-items($property) {
+    -webkit-align-items: $property;
+    align-items: $property;
+}
+
+@mixin use-align-self($property) {
+    -webkit-align-self: $property;
+    align-self: $property;
+}
+
+@mixin use-backface-visibility($property) {
+    -webkit-backface-visibility: $property;
+    -moz-backface-visibility: $property;
+    backface-visibility: $property;
+}
+
+
+
+@mixin use-transition($property, $duration: $simple-animation-duration, $time-function: null, $delay: null) {
+    -webkit-transition: $property $duration $time-function $delay;
+    -moz-transition: $property $duration $time-function $delay;
+    -o-transition: $property $duration $time-function $delay;
+    transition: $property $duration $time-function $delay;
+}
+
+//--------Animation mixins
+@mixin use-animation($name, $duration: $simple-animation-duration, $time-function: ease, $delay: 0, $count: 1, $direction: null, $fill-mode: null, $play-state: null) {
+    -webkit-animation: $name $duration $time-function $delay $count $direction $fill-mode $play-state;
+    -moz-animation: $name $duration $time-function $delay $count $direction $fill-mode $play-state;
+    -o-animation: $name $duration $time-function $delay $count $direction $fill-mode $play-state;
+    animation: $name $duration $time-function $delay $count $direction $fill-mode $play-state;
+}
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {@content};
+    @-moz-keyframes #{$name} {@content};
+    @-o-keyframes #{$name} {@content};
+    @keyframes #{$name} {@content};
+}

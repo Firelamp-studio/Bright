@@ -1,0 +1,373 @@
+@import "##main";
+@import "#main";
+@import "#parallax";
+
+$third-year-accent: #FF6600;
+$fourth-year-accent: null;
+$fifth-year-accent: null;
+
+%font-size-21{font-size: 21px}
+
+//----------------------------------------------------------------------------------------------------------------------
+body {
+    background-color: #f4c600;
+}
+
+.cCl //Centered content inside layer
+{@extend %v-center-absolute;}
+
+.fCl //full content inside layer
+{height:100%;width: 100%;}
+
+.mC //Main Caption
+{
+    @extend %hv-center-absolute;
+
+    width: 50%;
+    background-color: $header-bg-color;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 4em;
+    color: #ffffff;
+    padding: 1em 0.75em;
+    text-align: center;
+
+    &-little {
+        @extend %hv-center-absolute;
+
+        background-color: $header-bg-color;
+
+        font-family: Montserrat, sans-serif;
+        font-size: 2em;
+        color: #ffffff;
+        padding: 0.5em 0.45em;
+        text-align: center;
+    }
+}
+
+
+.tWb //Team work background
+{
+    background-image: url("#{$resources}images/png/working-team-apps.png");
+    //position: relative;
+    opacity: 0.9;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span.bLt //Block Layer Title
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.pB //Premise block
+{
+    $height: 35vh;
+
+    @extend %font-size-21;
+    background: linear-gradient(to bottom, $header-bg-color 0%, $header-bg-color 80%, $third-year-accent 100%);
+    padding: 1.5em 1.5em 4em 1.5em;
+    color: white;
+
+    @extend %v-center-flex;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+        z-index: 10;
+    }
+
+    & > div {
+        margin-top: 1em;
+        color: $header-text-color;
+    }
+}
+
+
+.pC //premise Content
+{
+
+}
+
+span.pT //Premise title
+{
+
+}
+
+.pI //premise-icon
+{
+    font-size: 200px;
+}
+
+.tYw //Third year wrapper
+{
+    $height: 65vh;
+
+    background-color: white;
+    padding: 2.5em;
+    @extend %font-size-21;;
+
+    border-top: 0.75em solid $third-year-accent;
+
+    @extend %v-center-flex;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+        z-index: 10;
+    }
+
+    span.bLt {
+        color: $third-year-accent;
+    }
+
+    &d //Third year description
+    {
+        margin-top: 1em;
+        @extend %d-flex;
+
+        & > div {
+            flex: 0 1 auto;
+
+            &:last-child {
+                flex: 0 1 50%;
+
+                @extend %v-center-flex;
+            }
+
+            & > img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+
+.fYl //Fourth Year label
+{
+    $height: 60vh;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+    }
+
+    &b //Fourth Year label background
+    {
+        height: $height + 12;
+        background-image: url("#{$resources}images/png/horizon.png");
+        //position: relative;
+        //opacity: 0.70;
+        //background-attachment: fixed;
+        //background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.fYw //Fourth year wrapper
+{
+    $height: 100vh;
+
+    background-color: $header-bg-color;
+    padding: 2em;
+    @extend %font-size-21;
+    color: #fff;
+
+    //@extend %v-center-flex;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+        z-index: 10;
+    }
+}
+
+.fYc //Fourth year content
+{
+    margin: 1em;
+    height: 80vh;
+
+    .content {
+        height: 100%;
+        @extend %v-center-flex;
+        color: darken(white, 15%);
+    }
+
+    & > img {
+        float: left;
+        width: 20%;
+        margin-right: 1em
+    }
+}
+
+
+.sC //Side Caption
+{
+    background-color: white;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    color: $header-bg-color;
+    padding: 0.5em 0.45em;
+    text-align: center;
+}
+
+.fiYw //Fifth year wrapper
+{
+    $height: 85vh;
+
+    background: linear-gradient(to top, darken($header-bg-color, 15%) 0%, darken($header-bg-color, 15%) 80%, $header-bg-color 100%);
+    //background-color: darken($header-bg-color, 5%);
+    //padding: 2em;
+    @extend %font-size-21;
+    //color: #fff;
+
+    @extend %v-center-flex;
+    text-align: center;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+        margin-top: -1px;
+        z-index: 10;
+    }
+}
+
+.fiYc //Fifth year content
+{
+    width: 50%;
+    margin: 2em auto 0 auto;
+    color: darken(white, 15%);
+}
+
+.pEl //Personal label
+{
+    $height: 100vh;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+    }
+
+    &b //Personal label background
+    {
+        height: $height;
+        background-image: url("#{$resources}images/png/The-Undergroud-Hose.png");
+        //position: relative;
+        //opacity: 0.70;
+        //background-attachment: fixed;
+        //background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.pEw //Personal wrapper
+{
+    $height: 100vh;
+
+    background-color: $header-bg-color;
+    //padding: 2em;
+    @extend %font-size-21;
+    color: #fff;
+
+    @extend %v-center-flex;
+    text-align: center;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+        margin-top: -1px;
+        z-index: 10;
+    }
+
+    & > div {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+.pEc //Personal content
+{
+    width: 50%;
+    margin: 2em auto 0 auto;
+    color: darken(white, 15%);
+}
+
+.firel //Firelamp Studio label
+{
+    $height: 100vh;
+
+    height: $height;
+    .pL&-layer, .pG&-layer {
+        height: $height;
+    }
+
+    &b //Personal label background
+    {
+        height: 65vh;
+        //background-color: #f4c600;
+
+        & > video {
+            @extend %hv-center-absolute;
+        }
+    }
+
+    .mC-little {
+        top: 75%;
+        font-size: 44px;
+    }
+}
+
+.credit-footer {
+    margin-top: -2px;
+    background-color: darken($header-bg-color, 15%);
+    color: darken(#fff, 30%);
+    font-size: 1.2em;
+    padding: 0.5em 0;
+
+    & > div {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+//--------------
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

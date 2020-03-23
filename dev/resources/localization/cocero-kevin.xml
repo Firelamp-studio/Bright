@@ -1,0 +1,180 @@
+<localization>
+
+    <introduction-title>
+        <it>Cambiamento dovuto alla passione</it>
+        <en>Change due to passion</en>
+    </introduction-title>
+
+    <premise-title-search>
+        <it>PREMESSA</it>
+        <en>PREMISE</en>
+    </premise-title-search>
+
+    <fiano-title-search>
+        <it>
+            BIBLIOTECA FIANO
+        </it>
+        <en>
+            FIANO LIBRARY
+        </en>
+    </fiano-title-search>
+
+    <reflection-title-search>
+        <it>
+            RIFLESSIONE
+        </it>
+        <en>
+            REFLECTION
+        </en>
+    </reflection-title-search>
+
+    <premise-title>
+        <it>Premessa</it>
+        <en>Premise</en>
+    </premise-title>
+
+    <premise-desc>
+        <it>
+            All’interno di questo documento non saranno presenti le molteplici attività relative al progetto
+            di ASL svolte durante questi anni, come ad esempio l’esperienza al centro Lavazza
+            o i vari incontri con Avio Aero, bensì le esperienze che, per il mio percorso formativo e personale,
+            sono state più significative.
+        </it>
+        <en>
+            This document will not present the many activities related to the ASL project carried out during
+            these years, such as the experience at the Lavazza center or the various meetings with Avio Aero,
+            but the experiences that, for my training and personal route, were more significant.
+        </en>
+    </premise-desc>
+
+    <fiano-title>
+        <it>
+            Assistenza biblioteca presso BIBLIOTECA FIANO (Terza superiore)
+        </it>
+        <en>
+            Library assistance at FIANO LIBRARY (Eleventh grade)
+        </en>
+    </fiano-title>
+
+    <fiano-desc>
+        <it>
+            La mia prima esperienza nel mondo del lavoro iniziò durante la terza superiore
+            ma, purtroppo, non era molto attinente al mio percorso scolastico;
+            infatti durante quest’esperienza utilizzai un computer per inserire all’interno di un archivio tutti i libri
+            che ancora non erano presenti: era ben lontano da quello che studiavo o facevo a scuola.
+        </it>
+        <en>
+            My first experience in the world began during the third year but, unfortunately,
+            it was not very relevant to my schooling;
+            in fact, during this experience, I used a computer to insert in an archive all the books that were not yet
+            present: it was far from what I studied or did at school.
+        </en>
+    </fiano-desc>
+
+    <oratory-title>
+        <it>
+            Attività presso L'ISOLA CHE C'E’ A.S.D (Quarta e quinta superiore)
+        </it>
+        <en>
+            Activities at the ISOLA CHE C'E' A.S.D (Twelfth grade)
+        </en>
+    </oratory-title>
+
+    <oratory-desc>
+        <it>
+            As the previous experience also this was not practically relevant to my course of studies,
+            I can say that it was practically focused on a different completion aspect;
+            in fact I did multiple jobs that did not involve the use of a computer: from helping the volunteers in the
+            structure to "animating" the children of the summer center. And yet, this was the very experience that made
+            me really understand what kind of road to take for my future.
+        </it>
+        <en>
+            As the previous experience also this was not practically relevant to my course of studies, I can say that
+            it was practically focused on a completely different aspect;
+            in fact I did multiple jobs that did not involve the use of a computer: from helping the volunteers in the
+            structure to "animating" the children of the summer center. And yet, this was the very experience that made
+            me understand what kind of route to take for my future.
+        </en>
+    </oratory-desc>
+
+    <firelamp-title>
+        <it>
+            FireLamp Studio (Quinta superiore)
+        </it>
+        <en>
+            FireLamp Studio (Twelfth grade)
+        </en>
+    </firelamp-title>
+
+    <firelamp-desc>
+        <it><![CDATA[
+            Non facente parte direttamente della mia esperienza riguardante l’ASL, grazie a un mio
+            compagno di classe, Russo Simone, sono stato coinvolto all’interno della società Tagshare Corporation di
+            Daniel Bertossa e Stefano Cassatella, dove ho subito preso parte allo sviluppo del sito web “G&L” per due
+            ex calciatori del Torino, Bresciani e Cravero, che è online all’indirizzo web “https://www.glgroupitaly.it/”.
+            Grazie a quest’esperienza ho migliorato le mie conoscenze e competenze nel settore informatico acquisendo
+            anche alcune nozioni nei vari linguaggi di programmazione come JAVA e PHP.<br/>
+            Tramite FireLamp Studio, ovvero un team formato principalmente da me, Russo Simone e un altro nostro compagno
+            di classe, Pecchio Lorenzo, abbiamo dato inizio allo sviluppo di una piattaforma a disposizione di utenti e
+            programmatori per la creazione di propri siti web: Bright. Attualmente ancora in fase di sviluppo è
+            temporaneamente visibile online all’indirizzo web “https://bright.firelamp.it/”.
+        ]]></it>
+        <en><![CDATA[
+            Not directly part of my experience regarding the ASL, thanks to my classmate, Russo Simone, I was involved
+            in the company Tagshare Corporation of Daniel Bertossa and Stefano Cassatella, where I immediately took part
+            in the development of "G&L" website for two former Torino's players, Bresciani and Cravero, who is online at
+            "https://www.glgroupitaly.it/". Thanks to this experience, I have improved my knowledge and skills in the
+            IT field, also obtaining some notions in the various programming languages ​​such as JAVA and PHP.<br/>
+            Through to FireLamp Studio, a team formed mainly by me, Russo Simone and another classmate of ours,
+            Pecchio Lorenzo, we started the development of a platform available to users and programmers for the
+            creation of their websites: Bright. Currently, still under development, it is temporarily visible online
+            at the web address "https://bright.firelamp.it/".
+        ]]></en>
+    </firelamp-desc>
+
+    <reflection-title>
+        <it>
+            Riflessione (Il mio futuro)
+        </it>
+        <en>
+            Reflection (My future)
+        </en>
+    </reflection-title>
+
+    <reflection-desc>
+        <it><![CDATA[
+            Le esperienze di ASL, anche quelle che sembravano piu’ lontane dal mio percorso di studio, mi hanno
+            pienamente soddisfatto: ho subìto un cambiato molto rilevante. Esse mi hanno aiutato a capire le dinamiche
+            del mondo lavorativo, aprendomi gli occhi sulla vera strada che vorrei intraprendere per il mio
+            futuro mestiere: l’insegnate.<br/>
+            Stando a stretto contatto con bambini e ragazzi sia all’interno della biblioteca sia nel centro estivo mi
+            sono accorto che aiutarli, cercando di essere per loro un punto di riferimento e di ispirazione per una
+            crescita personale, imparando però al contempo anche molte cose grazie a loro, mi riusciva senza troppe
+            difficoltà. L’insegnante sarebbe stato un buon punto di incontro per stare a contatto con i ragazzi,
+            insegnandoli sempre qualcosa di nuovo e, allo stesso tempo, apprendendo da loro.<br/>
+            La start up FireLamp, invece, mi ha aiutato nella crescita personale; infatti ha fatto sì che, invece di
+            rimanere sempre nell’ombra per paura di non riuscire a realizzare qualcosa di buono, riuscissi a mettermi
+            in gioco per provare non solo ad altri, ma anche a me stesso le mie capacità.<br/>
+            Grazie ai membri di questo team e, in particolare, a Russo Simone sono riuscito a superare la timidezza e la
+            sfiducia nelle mie capacità, riuscendo così a capire che tipo di persona vorrei essere veramente.<br/>
+            Entrambe, sia la scuola che FireLamp, mi hanno dato l’incipit per il mio futuro, che ora è solo da costruire.
+
+        ]]></it>
+        <en><![CDATA[
+            The experiences of ASL, even those that looked most distant from my study program, fully satisfied me:
+            I have undergone a very significant change. They helped me to understand the dynamics of the working world,
+            opening my eyes to the real road I would like to take for my future job: the teacher.<br/>
+            Being in close contact with children and young people both inside the library and in the summer center, I
+            realized that helping them, trying to be a point of reference and inspiration for personal growth, while
+            learning many things at the same time thanks to they succeeded without too much difficulty. The teacher
+            would have been a good meeting point to be in contact with the children, always teaching them something
+            new and, at the same time, learning from them.<br/>
+            The start-up FireLamp, instead, helped me in personal growth; in fact, it meant that, instead of always
+            remaining in the shadows for fear of not being able to achieve something good, I managed to put myself on
+            the line to prove my abilities not only to others but also to myself.<br/>
+            Thanks to the members of this team and, in particular, Russo Simone, I managed to overcome the shyness and
+            lack of confidence in my abilities, thus managing to understand what kind of person I want to be.
+            Both the school and FireLamp gave the beginning of my future, which is now only to be built.
+        ]]></en>
+    </reflection-desc>
+</localization>

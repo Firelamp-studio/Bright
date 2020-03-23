@@ -1,0 +1,27 @@
+//--------Property
+//----Display
+%d-none {display: none}
+%d-block {display: block}
+%d-in-block {display: inline-block}
+%d-flex {display: flex}
+%d-in-flex {display: inline-flex}
+%d-grid {display: grid}
+%d-in-grid {display: inline-grid}
+
+
+//----Position
+%p-absolute{position: absolute}
+%h-center-absolute{@extend %p-absolute;left: 50%;transform: translateX(-50%)}
+%v-center-absolute{@extend %p-absolute;top: 50%;transform: translateY(-50%)}
+%hv-center-absolute{@extend %p-absolute;top: 50%;left: 50%; transform: translate(-50%,-50%)}
+
+%h-center-margin{margin-left: auto;margin-right: auto}
+
+%v-center-flex{display: flex;flex-direction: column;justify-content: center;}
+
+
+//--------Styling
+%bg-transparent {background-color: transparent}
+%bg-color-primary {background-color: $primary-color}
+%bg-color-secondary {background-color: $secondary-color}
+%bg-color-foreground {background-color: $header-bg-color}

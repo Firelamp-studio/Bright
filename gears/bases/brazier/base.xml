@@ -1,0 +1,3 @@
+<base id="brazier" implementation="BrightBrazier" expose="Brazier">
+    <core-joint field="core"/>
+</base>

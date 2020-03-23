@@ -1,0 +1,12 @@
+<includes>
+    <styles>
+        <style link="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+        <style link="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+        <style link="https://fonts.googleapis.com/css?family=Montserrat"/>
+        <style link="https://fonts.googleapis.com/css?family=Lato"/>
+    </styles>
+    <scripts>
+        <script link="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" load="defer"/>
+        <script link="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" load="defer"/>
+    </scripts>
+</includes>

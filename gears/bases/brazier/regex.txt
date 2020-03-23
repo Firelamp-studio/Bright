@@ -1,0 +1,105 @@
+ ___________________________________________________________________________
+|---------------------------------------------------------------------------|
+|                                 Get Link                                  |
+|---------------------------------------------------------------------------|
+
+
+Pattern: Get
+
+@{<reference-#><link-name>};
+
+REGEX LINK WITHOUT PARAMETERS:
+@\s*{\s*([\w\-]*#)?([\w\-]+)\s*}\s*;
+
+all-match -> inside Group 0
+<reference-#> (optional) -> inside Group 1
+<link-name> -> inside Group 2
+
+
+REGEX LINK WITH PARAMETERS:
+@\s*{\s*([\w\-]*#)?([\w\-]+)\s+((?:[^"}]+(?:"[^"]*")?)+)\s*}
+
+REGEX ONLY PARAMETERS:
+([\w\-]+)\s*=\s*"((?:(?:[^<"]|<(?=[^?]))+|<\?(?:[^?]|\?(?=[^>]))*\?>)*)"
+
+
+///
+([\w\-]+)\s*=\s*"((?:[^"<]*(<\?[^?]*\?>|<)?)*)"
+([\w\-]+)\s*=\s*"((?:[^"<]*(?:<\?[^?]*(\?[^>]+)?\?>|<)?)*)"
+TEST:
+param="wdwdwd" param2="dwd<?jfj"""ef?>dwd"
+
+
+
+LINK-PARAM DEF:
+
+${<param-name>}[:
+    <default-value>
+:]
+
+REGEX:
+\${\s*([\w\-]+)\s*}(?:\[:\s*((?(?!\s*:])\s*\S|\G)+)\s*:])?
+
+all-match -> inside Group 0
+<param-name> -> inside Group 1
+<default-value> (optional) -> inside Group 2
+
+
+OLD:
+ ___________________________________________________________________________
+|---------------------------------------------------------------------------|
+|                                 Put Links                                 |
+|---------------------------------------------------------------------------|
+
+
+Pattern: After
+
+@<reference-#><link-name>{:
+    <content-to-prepend>
+:};
+
+REGEX:
+@\s*([\w\-]*#)?([\w\-]+)\s*{:\s*((?(?!\s*:})\s*\S|\G)+)\s*:}\s*;
+
+all-match -> inside Group 0
+<reference-#> (optional) -> inside Group 1
+<link-name> -> inside Group 2
+<content-to-append> -> inside Group 3
+
+
+----------------------------------------------------------------------------
+
+
+Pattern: Before
+
+@{:
+    <content-to-append>
+:}<reference-#><link-name>;
+
+REGEX:
+@\s*{:\s*((?(?!\s*:})\s*\S|\G)+)\s*:}\s*([\w\-]*#)?([\w\-]+)\s*;
+
+all-match -> inside Group 0
+<content-to-append> -> inside Group 1
+<reference-#> (optional) -> inside Group 2
+<link-name> -> inside Group 3
+
+
+----------------------------------------------------------------------------
+
+Pattern: Replace
+
+@<reference-#><link-name> = {
+    <content-to-append>
+};
+
+REGEX:
+@\s*([\w\-]*#)?([\w\-]+)\s*=\s*{:\s*((?(?!\s*:})\s*\S|\G)+)\s*:}\s*;
+
+all-match -> inside Group 0
+<reference-#> (optional) -> inside Group 1
+<link-name> -> inside Group 2
+<content-to-append> -> inside Group 3
+
+
+----------------------------------------------------------------------------

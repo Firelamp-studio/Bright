@@ -1,0 +1,3 @@
+<gear id="top-lighter" implementation="TopLighter" override="over-lighter" disabled="#">
+    <override-joint field="lighter"/>
+</gear>

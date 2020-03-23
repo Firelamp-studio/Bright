@@ -1,0 +1,1 @@
+<h1 class="admin-page-title">Admin Page</h1>

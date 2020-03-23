@@ -1,0 +1,15 @@
+<localization>
+
+    <test>
+        <it>
+            Testo di prova
+        </it>
+        <en>
+            Test text
+        </en>
+        <jp>
+            Conichiuà
+        </jp>
+    </test>
+
+</localization>

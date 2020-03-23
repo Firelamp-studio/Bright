@@ -1,0 +1,8 @@
+@import 'test';
+@import "#base_test_import";
+
+$test-color: #9e002c;
+
+.lighter-test{
+  color: $test-color;
+}

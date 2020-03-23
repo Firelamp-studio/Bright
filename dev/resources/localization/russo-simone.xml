@@ -1,0 +1,422 @@
+<localization>
+
+    <introduction-title>
+        <it>FireLamp e la razionalità emotiva</it>
+        <en>FireLamp and the emotional rationality</en>
+    </introduction-title>
+
+    <premise-title>
+        <it>Premessa</it>
+        <en>Premise</en>
+    </premise-title>
+
+    <premise-desc>
+        <it><![CDATA[
+            Durante questo triennio, con l’introduzione dell’ASL, ho svolto diverse attività in luoghi o aziende
+            importanti come la Lavazza SPA, l’Avio Aereo srl ed in Città Metropolitana.<br><br>
+            <small>In questa breve relazione mi sono concentrato principalmente su quelle che ritengo siano state più
+                significative per il mio percorso di vita e di orientamento per i miei progetti per il futuro.</small>
+            ]]>
+        </it>
+        <en><![CDATA[
+            During these three years, after ASL was introduced, I did different activities in important locations or
+            companies like Lavazza Spa, Avio Aereo Srl ed Città Metropolitana.<br><br>
+            <small>In this short paper, I focused on activities that I consider was the most significant for my life path
+                and as an orientation for my future projects.</small>
+            ]]>
+        </en>
+    </premise-desc>
+
+    <pro-logic-title>
+        <it><![CDATA[
+            Pro-Logic Informatica <i>
+                <small>(TERZA SUPERIORE)</small>
+            </i>
+            ]]>
+        </it>
+        <en><![CDATA[
+            Pro-Logic Informatica <i>
+                <small>(THIRD YEAR)</small>
+            </i>
+            ]]>
+        </en>
+    </pro-logic-title>
+
+    <pro-logic-desc>
+        <it><![CDATA[
+            Il mio percorso di alternanza comincia subito all’interno di Pro-Logic informatica, un’azienda nel campo
+            dello sviluppo hardware e software per organizzazioni pubbliche e private.<br><br>
+            Lo stage fu diviso in due fasi: una a gennaio e l’altra durante il periodo estivo.
+            ]]>
+        </it>
+        <en><![CDATA[
+            My ASL begins immediately within Pro-Logic Informatica, a company in hardware and software development
+            for public and private organizations.<br><br>
+            The internship was divided into two phases: one in January and the other in summer.
+            ]]>
+        </en>
+    </pro-logic-desc>
+
+    <pro-logic-first-title>
+        <it>Primo periodo</it>
+        <en>First period</en>
+    </pro-logic-first-title>
+
+    <pro-logic-first>
+        <it><![CDATA[
+            Sapevo già che mi sarei dovuto cimentare con il linguaggio di programmazione JAVA, anche se in terza
+            superiore c’era stata fatta un’introduzione al linguaggio C.<br><br>
+            Nonostante le preoccupazioni iniziali, in questo primo periodo, sono stato seguito da una persona molto
+            competente (tutor esterno) che mi ha fatto fare salti da gigante nel mondo della programmazione, non
+            solo per quanto riguarda le mere conoscenze del linguaggio, ma soprattutto per quanto riguarda le
+            capacità di progettazione software per progetti di medie/grandi dimensioni.<br><br>
+            Una competenza che non si acquisisce solo studiando, ma che necessita di pratica per capire quali
+            soluzioni siano più adatte per situazioni che, nel lungo periodo, possono presentare grossi cambiamenti.
+            ]]>
+        </it>
+        <en><![CDATA[
+            I already knew that I would have to try out the JAVA programming language, even if in third
+            higher there was an introduction to the C language.<br><br>
+            Despite initial concerns, in this early period, I was followed by a very competent person
+            (external tutor) who made me do giant leaps in the world of programming, not
+            only about what regard the mere knowledge of the language, but about
+            software design capability for medium/large projects.<br><br>
+            A skill that is not acquirable only by studying, but which requires practice to understand which ones
+            solutions are more suitable for situations that, in the long run, can present major changes.
+            ]]>
+        </en>
+    </pro-logic-first>
+
+    <pro-logic-first-app>
+        <it>Alla fine della prima parte dello stage avevo realizzato e pubblicato sul play-store un’applicazione per Android.</it>
+        <en>At the end of the first part of the stage I had created and published on play-store an application for Android.</en>
+    </pro-logic-first-app>
+
+
+    <pro-logic-second-title>
+        <it>Secondo periodo</it>
+        <en>Second period</en>
+    </pro-logic-second-title>
+
+    <pro-logic-second>
+        <it><![CDATA[
+            Nel periodo estivo, invece, fui seguito da un altro professionista. Questa volta il mio compito era di
+            aiutarlo nella creazione del nuovo sito dell’azienda.<br><br>
+            Inizialmente mi occupai della creazione di alcune paginette, ma non contento iniziai a lavorare a
+            stretto contatto con il ragazzo che mi seguiva, fino a discutere direttamente con il titolare su alcune
+            importanti scelte sulla struttura del sito.<br><br>
+            Per concludere, mi proposi per la realizzazione, in grafica vettoriale, di alcune icone, per poter
+            mettere in pratica alcune mie conoscenze, imparando molto di Adobe Illustrator e soprattutto sul mondo
+            della grafica.
+            ]]>
+        </it>
+        <en><![CDATA[
+            In the summer, however, I was followed by another professional. This time my duty was to
+            help him in creating the new company website.<br><br>
+            Initially I took care of the creation of some small pages, but after some time I started working
+            closely with the tutor who followed me, making
+            important choices about the site structure. <br><br>
+            To conclude, I proposed my self for the realization, in vector graphics, of some icons, to be able to
+            put some of my knowledge into practice, learning a lot about Adobe Illustrator and about the world
+            of graphics.
+            ]]>
+        </en>
+    </pro-logic-second>
+
+    <pro-logic-second-site>
+        <it>Il lavoro fu anch’esso completato e il nuovo sito è tutt'oggi disponibile presso http://www.pro-logic.it/it/home/.</it>
+        <en>The work was also completed and the new site is still available today at http://www.pro-logic.it/it/home/.</en>
+    </pro-logic-second-site>
+
+
+    <tagshare-title>
+        <it><![CDATA[
+            Tagshare Corporation <i>
+                <small>(QUARTA SUPERIORE)</small>
+            </i>
+            ]]>
+        </it>
+        <en><![CDATA[
+            Tagshare Corporation <i>
+                <small>(FOURTH YEAR)</small>
+            </i>
+            ]]>
+        </en>
+    </tagshare-title>
+
+    <tagshare-desc>
+        <it><![CDATA[
+            Il secondo anno ASL, i professori mi consigliarono di affrontare un colloquio, insieme ad altri ragazzi,
+            per tentare di riuscire a portare avanti la mia esperienza di alternanza presso Tagshare Corporation di
+            Daniel Bertossa e Stefano Cassatella: un’azienda che si occupa di Marketing a 360 gradi.<br><br>
+            Io fui scelto e, con me, anche il mio compagno Lorenzo Pecchio, visto che avevamo già iniziato a
+            lavorare assieme all’idea di un videogioco: LightUp.
+            ]]>
+        </it>
+        <en><![CDATA[
+            The second ASL year, the teachers advised me to face an interview, with other boys,
+            to try to be able to continue my experience of "alternanza" at Tagshare Corporation of
+            Daniel Bertossa and Stefano Cassatella: a company that deals with Marketing at 360 degrees.<br><br>
+            I was chosen and, with me, also my partner Lorenzo Pecchio, since we had already started
+            work together with the idea of a video game: LightUp.
+            ]]>
+        </en>
+    </tagshare-desc>
+
+    <tagshare-stage-title>
+        <it>Lo stage</it>
+        <en>The internships</en>
+    </tagshare-stage-title>
+
+    <tagshare-stage>
+        <it><![CDATA[
+            Il primo giorno di stage ci furono spiegate le basi sul funzionamento di WordPress (una piattaforma che
+            consente la creazione di un sito Internet, facilmente gestibile ed aggiornabile in maniera dinamica),
+            anche se da autodidatta qualcosa avevo già iniziato a studiarla da solo.<br><br>
+            In poco tempo abbiamo lavorato alla sistemazione di alcuni siti per attuali clienti dell’azienda. Poche
+            ore dopo avevamo già completato il lavoro e mi sono proposto di lavorare a qualcosa di un po’ più arduo,
+            dove servisse un po’ di programmazione.<br><br>
+            Qui iniziò il percorso dove ho avuto la possibilità di imparare molto su PHP, integrando anche delle
+            conoscenze apprese a scuola.<br><br>
+            Abbiamo lavorato all’ideazione e all’inizio della realizzazione di un progetto per la gestione online
+            dei condomini, per un amministratore e tutti gli utenti dei vari appartamenti associati.<br><br>
+            Il lavoro è stato portato avanti durante tutto l’anno scolastico raggiungendo una versione di test del
+            tutto funzionante e completando così le ore di alternanza previste dalla Norma.<br><br>
+            Durante questo percorso, oltre al lavoro da programmatori, siamo dovuti rimanere a stretto contatto col
+            cliente, organizzando e partecipando ad una serie di riunioni con lui, per ideare, progettare e decidere
+            quelle che sarebbero state tutte le funzionalità della piattaforma.
+            ]]>
+        </it>
+        <en><![CDATA[
+            On the first day of the internship tutors explained us the basics on how WordPress works (a platform that
+            allows creation of an Internet site, easily manageable and dynamically updatable),
+            even if I had already started learning it myself, something. <br><br>
+            In a short time we worked on the arrangement of some sites for current customers of the company. few
+            hours later we had already completed the work and I proposed to work on something a little more difficult,
+            where some programming is needed. <br><br>
+            Here began the path where I had the opportunity to learn a lot about PHP, also integrating
+            knowledge learned at school. <br><br>
+            We worked on the design and the beginning of the realization of a project for online management
+            of condominiums, for an administrator and all the users of the various associated apartments.<br><br>
+            The work was carried out throughout the school year reaching a test version of the
+            all working and completing the alternating hours provided for by the Norma. <br><br>
+            During this journey, in addition to working as programmers, we had to stay in close contact with
+            customer, organizing and participating in a series of meetings with him, to conceive, design and decide
+            what would have been all the features of the platform.
+            ]]>
+        </en>
+    </tagshare-stage>
+
+
+    <firelamp-title>
+        <it><![CDATA[
+            FireLamp Studio <i>
+                <small>(QUINTA SUPERIORE)</small>
+            </i>
+            ]]>
+        </it>
+        <en><![CDATA[
+            FireLamp Studio <i>
+                <small>(FIFTH YEAR)</small>
+            </i>
+            ]]>
+        </en>
+    </firelamp-title>
+
+    <firelamp-desc>
+        <it><![CDATA[
+            Al completamento delle ore di alternanza, ha fatto seguito l’avvio di una collaborazione di tipo
+            professionale con Tagshare che ha già dato i suoi frutti: l’ultimo è un lavoro realizzato per i due ex
+            calciatori della squadra del Toro, Bresciani e Cravero, su un progetto legato alla condivisione di
+            risorse da parte delle aziende (reti di imprese), già pubblicato on-line presso
+            https://www.glgroupitaly.it/.<br><br>
+            Durante lo sviluppo di G&L mi sono anche occupato di gestire qualche fase dell’alternanza di alcuni
+            ragazzi di quarta scelti dal Manager aziendale (tutor), possibili collaboratori per futuri progetti, di
+            cui molti hanno già dato la loro disponibilità, provando anche un po’ la sensazione di stare dall’altra
+            parte della scrivania.<br><br>
+            È proprio in questo frangente, durante lo sviluppo di G&L Group, che un altro compagno, Kevin Cocero, si
+            è unito ufficialmente al team, offrendoci un significativo contributo.
+            ]]>
+        </it>
+        <en><![CDATA[
+            Upon completion of the "alternanza" hours, we decidec to start a professional collaboration
+            with Tagshare that has already borne fruit: the last is a work realized for the two ex
+            footballers of the team of Toro, Bresciani and Cravero, on a project linked to the sharing of
+            resources from companies (business networks), already published online at
+            https://www.glgroupitaly.it/. <br><br>
+            During the development of G&L I also managed to manage some phases of the "alternanza" of some
+            fourth graders chosen by the Company Manager (tutor), possible collaborators for future projects, of
+            which many have already given their availability, even trying a little the feeling of being on the other
+            part of the desk. <br><br>
+            It is precisely at this juncture, during the development of G&L Group, that another partner, Kevin Cocero, yes
+            officially joined the team, offering us a significant contribution.
+            ]]>
+        </en>
+    </firelamp-desc>
+
+    <firelamp-idea-title>
+        <it>Le idee</it>
+        <en>The ideas</en>
+    </firelamp-idea-title>
+
+    <firelamp-idea>
+        <it><![CDATA[
+            Questo è solo l’inizio, abbiamo già in serbo una serie di progetti da portare avanti come gruppo.<br><br>
+            Lavorando con WordPress, ci siamo resi conto di alcuni limiti che la piattaforma ci pone su lavori che
+            richiedono tanto sviluppo via codice, ecco perché, primo fra tutti, c’è la realizzazione di un
+            costruttore di siti, attualmente in fase di sviluppo, che inizialmente, una volta completato, testeremo
+            sui nostri progetti, per poi utilizzarlo con i nostri clienti, fino a renderlo disponibile a tutti sul
+            mercato. Il progetto ha attualmente preso il nome di BRIGHT ed è disponibile temporaneamente, in fase di
+            sviluppo, presso https://bright.firelamp.it/.<br><br>
+            Ed è qui che nasce la BUSINESS IDEA di FireLamp Studio, fondata da noi tre compagni (team) che inizierà
+            col realizzare video pubblicitari, applicazioni e siti web di qualunque natura per il B2B e che, nel
+            B2C, si occuperà di produrre corti cinematografici e progetti di varia natura per portare avanti idee
+            che il team riterrà innovative.
+            ]]>
+        </it>
+        <en><![CDATA[
+            This is only the beginning, we already have in store a series of projects to carry on as a group.<br><br>
+            Working with WordPress, we realized some limitations that the platform places on jobs that
+            they require a lot of development via code, that's why, first of all, there is the realization of a
+            site builder, currently under development, which, once completed, we will test
+            on our projects, then use it with our customers, to make it available to everyone on
+            market. The project has currently taken the name of BRIGHT and is available temporarily, under construction,
+            at https://bright.firelamp.it/. <br><br>
+            And this is where the FireLamp Studio BUSINESS IDEA is born, founded by us three mates (team) that will start
+            by making advertising videos, applications and websites of any nature for B2B and, in
+            B2C, will produce shorts film and projects of various kinds to carry forward ideas
+            that the team will consider innovative.
+            ]]>
+        </en>
+    </firelamp-idea>
+
+    <firelamp-past-title>
+        <it>Le origini</it>
+        <en>The origins</en>
+    </firelamp-past-title>
+
+    <firelamp-past>
+        <it><![CDATA[
+            L’idea di un gruppo di lavoro è remota e nasce, assieme al mio più fidato amico, con la fanciullesca
+            ambizione di realizzare una casa di sviluppo videoludica (che col tempo ha preso diversi nomi e pensato
+            di portare avanti diversi progetti) e, solo dopo l’esperienza di alternanza, si è trasformata in
+            qualcos’altro.<br><br>
+            La realtà è che, oltre all’informatica, ho sempre voluto realizzare opere di natura cinematografica, ma
+            i costi rendevano il tutto niente di più che un semplice sogno. I videogiochi erano sicuramente un bel
+            modo per raccontare storie in un modo che fosse il più possibile vicino al cinema.<br><br>
+            La business idea di FireLamp va quindi trasformandosi in “il fuoco e la lampadina”, immagini del logo
+            aziendale, che, unite, rappresentano proprio i due simboli (il fuoco come passione, ma anche simbolo
+            esplosivo delle emozioni; la lampadina come intelligenza, genialità e logica) che mi hanno causato tante
+            lotti interiori e che col tempo ho capito che non potevo separarli, in quanto insieme sono una forza,
+            quella della mia interiorità ed identità, la razionalità emotiva.
+            ]]>
+        </it>
+        <en><![CDATA[
+            The idea of ​​a working group is remote and is born, together with my most trusted friend, with the young
+            ambition to create a videogame development house (which over time has taken several names and thought
+            to carry out various projects) and, only after the experience of "alternanza", it became
+            something else. <br><br>
+            The reality is that, in addition to information technology, I have always wanted to make films, but
+            the costs made it all nothing more than a simple dream. Video games were definitely a nice one
+            way to tell stories in a way that was as close as possible to the cinema. <br><br>
+            The FireLamp business idea is therefore turning into "fire and light bulb", images of the logo
+            company, which, united, represent precisely the two symbols (fire as passion, but also symbol
+            explosive of emotions; the light bulb as intelligence, genius and logic) that caused me so many
+            inner lots and over time I realized that I could not separate them, because together they are a force,
+            that of my interiority and identity, emotional rationality.
+            ]]>
+        </en>
+    </firelamp-past>
+
+    <conclusion-title>
+        <it>Conclusioni</it>
+        <en>Conclusions</en>
+    </conclusion-title>
+
+    <future-title>
+        <it>Futuro</it>
+        <en>Future</en>
+    </future-title>
+
+    <conclusion>
+        <it><![CDATA[
+            Grazie all’alternanza scuola lavoro, ho avuto modo di mettere in gioco me stesso in alcune realtà
+            aziendali, permettendomi di sviluppare qualcosa di più delle basilari conoscenze, credo infatti di aver
+            raggiunto delle competenze che mi serviranno in qualunque ambito lavorativo e di vita.<br><br>
+            In questa breve relazione ho posto in luce la mia esperienza dal punto di vista dell’esperienza in campo
+            informatico, visto il mio indirizzo di studio, tuttavia non posso negare la mia passione per il mondo
+            dell’arte (musica, cinema, disegno, danza …) ed il patimento quando si è trattato di scegliere il
+            percorso di studio per le superiori, alla fine della terza media: ero fortemente interdetto se
+            proseguire verso l’informatica o la cinematografia. Di fatto, all’arte, in questi cinque anni, ho
+            dedicato il mio tempo libero, ma non solo, perché nella ricerca di un legame fra questi due indirizzi
+            (arte ed informatica), il miglior punto di incontro l’ho trovato nello sviluppo di videogiochi dove,
+            raccontare storie e programmare, riescono ad intrecciarsi in un modo davvero particolare. Il problema di
+            questo mondo è il pubblico che, giustamente, tende a dare una forte importanza al divertimento più che
+            all’intensità di un racconto.<br><br>
+            Ecco perché, nonostante la decisione, era comunque di fondamentale importanza che mi dedicassi a
+            evolvere entrambe le passioni, informatica a scuola e l’arte nel tempo libero, per cercare di capire se
+            la regia ed io avessimo qualcosa in comune per poter, in caso, essere preparato ad un cambio di rotta.
+            Lavorando, ci si rende conto di come sia difficile portare avanti le proprie passioni assieme ad un
+            lavoro che ti occupa gran parte del tuo tempo e della tua mente.<br><br>
+            La verità è che, anche solo guardandomi attorno, mi è stato facile notare come siamo ormai quasi
+            sopraffatti dalla tecnologia e di quanto, forse più che di una nuova applicazione, al mondo serve
+            qualcuno che gli ricordi che la più grande tecnologia di cui ha bisogno è sé stesso.
+            Ciò non significa che la start up FireLamp verrà abbandonata, anzi, è di fondamentale importanza che
+            prosegua e sarà soprattutto grazie ai collaboratori che ho incontrato e a questo percorso
+            nell’alternanza.<br><br>
+            Normalmente potrebbe sembrare strano, ma non in questo caso, infatti l’idea per il mio futuro è quindi
+            quella di tentare di entrare al Centro Sperimentale del Cinema di Roma e dati i costi che la mia
+            famiglia sola non potrebbe sostenere, ho deciso di sfruttare tutte le competenze acquisite in questi
+            anni svolgendo un lavoro che comunque apprezzo nel più profondo con un gruppo di persone che sempre più
+            sono diventate una famiglia.<br><br>
+            Questo gruppo sarà per tutti i suoi componenti un’opportunità e, nel mio caso, la forza per avviare un
+            approfondimento nell’ambito artistico.<br><br>
+            L’informatica è ormai sempre più presente in qualunque campo e quello cinematografico sicuramente non è
+            da meno ed è anche per questo che durante l’anno, avvicinandomi agli stimoli dell’ambito
+            umanisitico-artistico, ho cercato di realizzare progetti didattici come “Vita Liquida”.<br><br>
+            Il fatto di aver studiato L’INFORMATICA, posso già dire, sarà un qualcosa che sfrutterò nel cinema e non
+            solo. Essa sarà sicuramente un lavoro per mantenermi, dandomi almeno un’opportunità nel realizzare il
+            sogno della regia!
+            ]]>
+        </it>
+        <en><![CDATA[
+Thanks to the ASL, I was able to put myself out there in some companies,
+allowing me to develop something more than the basic knowledge, I believe I have
+reached the skills I will need in any work and life context. <br><br>
+In this brief report I highlighted my experience in terms of experience in the field
+computer science, given my course of study, however I cannot deny my passion for the world
+of art (music, cinema, drawing, dance ...) and suffering when it came to choosing the
+course of study for high school students, at the end of the eighth grade: I was strongly forbidden if
+continue towards information technology or cinematography. In fact, in art, in these five years, I have
+dedicated my free time, but not only, because in the search for a link between these two addresses
+(art and computer science), the best meeting point I found in the development of video games where,
+telling stories and programming, they manage to intertwine in a very special way. The problem of
+this world is the public that, rightly, tends to give a strong importance to entertainment rather than
+to the intensity of a story. <br><br>
+That's why, despite the decision, it was still of fundamental importance that I dedicate myself to
+evolve both passions, computer science at school and art in your spare time, to try to understand if
+the direction and I had something in common to be able, in case, to be prepared for a change of course.
+Working, one realizes how difficult it is to pursue one's passions together with one
+job that takes up most of your time and your mind. <br><br>
+The truth is that, even just looking around me, it was easy to see how we are almost now
+overwhelmed by technology and how, perhaps more than a new application, the world is needed
+someone who reminds him that the greatest technology he needs is himself.
+This does not mean that the start up FireLamp will be abandoned, indeed, it is of fundamental importance that
+continue and it will be above all thanks to the collaborators I have met and to this "alternanza" path. <br><br>
+Normally it might seem strange, but not in this case, in fact the idea for my future is therefore
+that of trying to enter the Experimental Cinema Center of Rome and given the costs that mine
+family alone could not support, I decided to exploit all the skills acquired in these
+years doing a job that I still appreciate in the deepest with a group of people that increasingly
+they have become a family. <br><br>
+This group will be an opportunity for all its members and, in my case, the strength to start a business
+deepening in the artistic field. <br><br>
+Computer science is now increasingly present in any field and cinema is certainly not
+from less and it is also for this that during the year, approaching to the stimuli of the field
+humanistic-artistic, I tried to carry out educational projects such as "Liquid Life". <br><br>
+The fact that I have studied INFORMATION, I can already say, will be something that I will exploit in film and not
+only. It will surely be a job to maintain, giving me at least an opportunity to realize the
+dream of directing!
+]]>
+        </en>
+    </conclusion>
+</localization>

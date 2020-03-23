@@ -1,0 +1,4 @@
+<base id="lighter" implementation="BrightLighter" expose="Lighter">
+    <core-joint field="core"/>
+    <joint gear="brazier" field="brazier"/>
+</base>
