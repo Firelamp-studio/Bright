@@ -38,7 +38,7 @@ abstract class AtLinkAgent
      * @param string $styleFileDeployDir
      * @param string $scriptFileDeployDir
      */
-    public function __construct(Compiler $scssCompiler, callable $globalImportsCallable, string $linkDir, string $styleFileDeployDir, string $scriptFileDeployDir)
+    public function __construct(?Compiler $scssCompiler, callable $globalImportsCallable, string $linkDir, string $styleFileDeployDir, string $scriptFileDeployDir)
     {
         $this->scssCompiler = $scssCompiler;
         $this->globalImportsCallable = $globalImportsCallable;

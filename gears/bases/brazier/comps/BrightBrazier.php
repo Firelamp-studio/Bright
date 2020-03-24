@@ -150,6 +150,7 @@ class BrightBrazier extends Brazier
 
         // Read Main Page Implementing AtLink and appends every Style and Script to the main
         $linkDir = BASE_DIR . $devTarget->getPath() . 'web/links/';
+        $htmlContent = (new CommentedAtLinkParser($htmlContent))->parse();
         $htmlContent = (new ParamsAtLinksParser($htmlContent))->parse(new ParamsAtLinkAgent($scssCompiler, $globalImportsCallable, $linkDir, $styleFileDeploy, $scriptFileDeploy, $bases, $gears));
 
         // Include generated page style file in generated page
