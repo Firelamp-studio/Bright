@@ -5,11 +5,11 @@ class ClassLoaderConfigFactory
 
     public static function newInstance(): ClassLoaderConfig
     {
-        $config = Bright::getConfig()['classloader'];
+        $config = Bright::getConfig()['dev'];
         if ($config) {
             return new ClassLoaderConfig(
-                ($config['dev_mode'] != null ? $config['dev_mode'] : DefaultClassLoaderConfig::DEV_MODE),
-                ($config['debug_mode'] != null ? $config['debug_mode'] : DefaultClassLoaderConfig::DEBUG_MODE)
+                ($config['force_page_reload'] != null ? $config['force_page_reload'] : DefaultClassLoaderConfig::FORCE_PAGE_RELOAD),
+                ($config['show_class_loads'] != null ? $config['show_class_loads'] : DefaultClassLoaderConfig::SHOW_CLASS_LOADS)
             );
         }
 

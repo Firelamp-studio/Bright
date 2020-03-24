@@ -45,7 +45,7 @@ class BrightLighter extends Lighter
 
         $page = new PageImplementation($relatedElement,
             ($deployTarget->getTargetType() == TargetObtainer::DRAFT_REQUEST ?
-                ucfirst(str_replace('-', ' ', $deployTarget->getTarget())) . ' - ' . Bright::getConfig()['essentials']['site_title']
+                ucfirst(str_replace('-', ' ', $deployTarget->getTarget())) . ' - ' . Bright::getConfig()['preferences']['site_title']
                 :
                 ucfirst(str_replace('-', ' ', $deployTarget->getTarget())) . ' - Bright')
 

@@ -57,7 +57,7 @@ class TargetResult
 
     public function __toString()
     {
-        return "TargetResult:{ path:{$this->path}, target:{$this->target}, targetType:{$this->targetType} }";
+        return "TargetResult:{ path:'{$this->path}', target:'{$this->target}', targetType:'{$this->targetType}' }";
     }
 
 

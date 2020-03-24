@@ -5,6 +5,7 @@ class DeployTargetObtainer extends TargetObtainer
 {
     public function getTargetResult(string $path, string $requestType, bool $is_default): TargetResult
     {
+
         switch ($requestType) {
 
             case self::CORE_REQUEST:
@@ -12,7 +13,7 @@ class DeployTargetObtainer extends TargetObtainer
                 if ($is_default) {
 
                     return new TargetResult(
-                        DEPLOY_SUBDIR . '/bright/' . $path . '/',
+                        DEPLOY_SUBDIR . '/bright/',
                         'core',
                         self::CORE_REQUEST
                     );

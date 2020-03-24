@@ -13,7 +13,7 @@ class Bright
     }
 
     public static function isDev(): bool {
-        return !self::getConfig()['essentials']['released'];
+        return !self::getConfig()['specs']['released'];
     }
 
     /**
@@ -43,7 +43,7 @@ class Bright
 //                $db->connect();
 //        }
 
-        if (self::getConfig()['preferences']['use_session_core']) {
+        if (self::getConfig()['dev']['use_session_core']) {
             if (isset($_SESSION['bright_core'])) {
                 $this->core = $_SESSION['bright_core'];
             } else {

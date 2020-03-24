@@ -158,6 +158,7 @@ class BrightBrazier extends Brazier
             $styleUrl = URL::getSiteURL() . $deployTarget->getPath() . $deployTarget->getTarget() . '.css';
             $htmlContent = str_replace('</head>', "<link rel='stylesheet' href='{$styleUrl}?ver={$styleVersion}'></head>", $htmlContent);
         }
+        
         // Include generated page script file in generated page
         if (file_exists($scriptFileDeploy)) {
             $scriptVersion = '0.0.' . time();

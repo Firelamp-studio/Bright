@@ -81,7 +81,7 @@ class PageHelper
 
         $text = trim($localization->$id->$lang);
         if(empty($text)){
-            $lang = Bright::getConfig()['essentials']['default_lang'];
+            $lang = Bright::getConfig()['preferences']['default_lang'];
             $text = '<i style="color: darkred;font-size: smaller;">[language unavailable]</i>' . trim($localization->$id->$lang);
         }
         BrazierHelper::simplyMinimizeCode($text);
