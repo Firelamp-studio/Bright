@@ -31,22 +31,23 @@ class Pointer
 
         $config = Bright::getConfig();
 
+
         /**
          * Redirect in case of different protocol or calling gleam.php file
          */
-//        if ($config['essentials']['bright_url'] != URL::getProtocol() . '://' . URL::getDomainName()
-//            or URL::getFilename() == 'gleam.php') {
-//            header('location: ' . $config['essentials']['bright_url'] . URL::getPath());
-//            die;
-//        }
+        if ($config['conn']['protocol'] != URL::getProtocol()
+            or URL::getFilename() == 'gleam.php') {
+            header('location: ' . $config['conn']['protocol'] . '://' . URL::getDomainName() . '/' . URL::getLang() . URL::getPath() . '?' . preg_replace('/&?lang=[^&]*&?/', '', preg_replace('/&?path=[^&]*&?/', '', $_SERVER['QUERY_STRING'])));
+            die;
+        }
 
         /**
          * Redirect if calling homepage directly
          */
-        /*if (URL::getFilename() == DEFAULT_PAGE_PATH) {
-            header('location: ' . $config['essentials']['bright_url']);
+        if (URL::getFilename() == DEFAULT_PAGE_PATH) {
+            header('location: ' . $config['conn']['protocol'] . '://' . URL::getDomainName() . '/' . URL::getLang() . '?' . preg_replace('/&?lang=[^&]*&?/', '', preg_replace('/&?path=[^&]*&?/', '', $_SERVER['QUERY_STRING'])));
             die;
-        }*/
+        }
     }
 
     public function sendView(): void
