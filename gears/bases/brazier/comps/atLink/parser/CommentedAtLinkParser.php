@@ -13,6 +13,6 @@ class CommentedAtLinkParser extends AtLinksParser
      */
     public function parse(?AtLinkAgent $agent = null): string
     {
-        return preg_replace('/\*@{\s*[\w\-]*#?[\w\-]+(?:\s+(?:[^"}]+(?:"[^"]*")?+))?\s*}/', '', $this->text);
+        return preg_replace('/(?>\/\*\K|\*)@{\s*[\w\-]*#?[\w\-]+(?:\s+(?:[^"}]+(?:"[^"]*")?+))?\s*}/', '', $this->text);
     }
 }
