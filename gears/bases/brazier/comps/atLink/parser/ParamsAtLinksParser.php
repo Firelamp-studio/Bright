@@ -25,7 +25,7 @@ class ParamsAtLinksParser extends AtLinksParser
                 }
 
                 $actionResult = $agent->action($reference, $link, $params);
-                return $actionResult ? $actionResult : $matches[0];
+                return $actionResult === null ? $matches[0] : $actionResult;
             }, $this->text);
     }
 

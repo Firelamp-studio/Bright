@@ -22,7 +22,9 @@ class ParamsAtLinkAgent extends AtLinkAgent
         if ($linkDir != null) {
 
             $linkStyleDir = $linkDir . "styles/{$link}.scss";
+            $cssExist = false;
             if (file_exists($linkStyleDir)) {
+                $cssExist = true;
                 $this->scssCompiler->setImportPaths($linkDir . 'styles');
                 $this->scssCompiler->addImportPath($this->globalImportsCallable);
                 try {
@@ -34,16 +36,22 @@ class ParamsAtLinkAgent extends AtLinkAgent
             }
 
             $linkScriptDir = $linkDir . "scripts/{$link}.js";
+            $jsExist = false;
             if (file_exists($linkScriptDir)) {
+                $jsExist = false;
                 file_put_contents($this->scriptFileDeployDir, file_get_contents($linkScriptDir), FILE_APPEND);
             }
 
             $linkContentDir = $linkDir . "{$link}.php";
-            $linkContent = '';
+            $linkContent = false;
             if (file_exists($linkContentDir)) {
-                $linkContent = file_get_contents($linkContentDir);
 
+                $linkContent = file_get_contents($linkContentDir);
                 $linkContent = (new AtLinkParamsParser($linkContent))->parse(new AtLinkParamsAgent($params));
+
+            } else if ($cssExist && $jsExist) {
+
+                $linkContent = '';
             }
 
             return $linkContent;
