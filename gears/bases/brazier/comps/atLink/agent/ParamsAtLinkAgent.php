@@ -39,14 +39,14 @@ class ParamsAtLinkAgent extends AtLinkAgent
             }
 
             $linkContentDir = $linkDir . "{$link}.php";
-            $linkContent = false;
+            $linkContent = '';
             if (file_exists($linkContentDir)) {
                 $linkContent = file_get_contents($linkContentDir);
 
                 $linkContent = (new AtLinkParamsParser($linkContent))->parse(new AtLinkParamsAgent($params));
             }
 
-            return $linkContent ? $linkContent : '';
+            return $linkContent;
         }
 
         return null;
