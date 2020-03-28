@@ -1,7 +1,16 @@
 * {
     box-sizing: border-box;
 }
-/*
+
 body {
-    font-family: 'Roboto Mono', monospace;
-}*/
+    //width: 100vw;
+    //height: 100vh;
+    //font-family: 'Roboto Mono', monospace;
+}
+
+.Cw //Central wrapper
+{
+    margin: auto;
+    width: 50vw;
+    min-width: 940px;
+}

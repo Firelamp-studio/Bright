@@ -1,0 +1,1 @@
+//fare in modeo che quando scorri diventa più piccolo

@@ -12,37 +12,40 @@ selector /selector description/
    & nesting element
 }
 */
+//----------------------------------------------------------------------------------------------------------------------
 
 @import "#main";
 
 //----------------------------------------------------------------------------------------------------------------------
-.hE /*header Element*/
+.hE //header Element
 {
     flex: 0 1 auto;
-
     background-color: transparent;
-
     text-align: center;
 }
 
 #MBH //Main Backend Header
 {
     width: 100%;
-    @extend %d-flex;
-    justify-content: space-evenly;
-
     background-color: $header-bg-color;
-
     padding: 1rem;
     font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
 
-    .hE {
-        margin: 0 0 0 10px;
-
+.hW //header wrapper
+{
+    @extend %d-flex;
+    justify-content: space-evenly;
+    
+    .hE //header element
+    {
+        //margin: 0 0 0 10px;
+        
+        height: 100%;
         @include use-transition(color);
-
         color: $header-text-color;
-
+        
         a {
             color: inherit;
             text-decoration: none;
@@ -50,11 +53,13 @@ selector /selector description/
         p {
             margin-top: 0.5rem;
             margin-bottom: 0;
+            //font-size: 1rem;
         }
         svg {
-            height: 3.5em;
-
-
+            //height: 3.5em;
+            height: 8vh;
+            //height: calc(100% - 1.5rem);
+            
             g {
                 @include use-transition(fill);
             }
@@ -65,12 +70,12 @@ selector /selector description/
                 fill: $header-text-color;
             }
         }
-
-
+        
+        
         &:hover {
             cursor: pointer;
             color: #ffffff;
-
+            
             svg {
                 g#background {
                     fill: #ffffff;
@@ -80,7 +85,7 @@ selector /selector description/
                 }
             }
         }
-
+        
         &:first-child {
             margin-left: 0;
         }
