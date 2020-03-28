@@ -1,8 +1,8 @@
 <?php
 
-use Leafo\ScssPhp\Compiler;
-use Leafo\ScssPhp\Exception\CompilerException;
-use Leafo\ScssPhp\Formatter\Compressed;
+use ScssPhp\ScssPhp\Compiler;
+use ScssPhp\ScssPhp\Exception\CompilerException;
+use ScssPhp\ScssPhp\Formatter\Compressed;
 
 class BrightBrazier extends Brazier
 {

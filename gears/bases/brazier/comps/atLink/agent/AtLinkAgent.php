@@ -1,7 +1,7 @@
 <?php
 
 
-use Leafo\ScssPhp\Compiler;
+use ScssPhp\ScssPhp\Compiler;
 
 abstract class AtLinkAgent
 {

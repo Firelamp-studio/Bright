@@ -1,7 +1,7 @@
 <?php
 
-use Leafo\ScssPhp\Compiler;
-use Leafo\ScssPhp\Exception\CompilerException;
+use ScssPhp\ScssPhp\Compiler;
+use ScssPhp\ScssPhp\Exception\CompilerException;
 
 class ParamsAtLinkAgent extends AtLinkAgent
 {
