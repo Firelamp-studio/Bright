@@ -22,7 +22,7 @@ class WebConfigParser
         if(file_exists($this->filename)){
             $config = parse_ini_file($this->filename);
             return new WebConfig(
-                ($config['dev_mode'] != null ? $config['dev_mode'] : DefaultWebConfig::DEV_MODE)
+                ($config['force_page_reload'] != null ? $config['force_page_reload'] : DefaultWebConfig::FORCE_PAGE_RELOAD)
             );
         }
 

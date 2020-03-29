@@ -3,7 +3,7 @@
 
 class DefaultWebConfig
 {
-    public const DEV_MODE = false;
+    public const FORCE_PAGE_RELOAD = false;
 
     public const DEPENDENCIES = [];
 
@@ -11,6 +11,6 @@ class DefaultWebConfig
 
     public static function newInstance() : WebConfig
     {
-        return new WebConfig(self::DEV_MODE);
+        return new WebConfig(self::FORCE_PAGE_RELOAD);
     }
 }

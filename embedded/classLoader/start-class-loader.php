@@ -1,6 +1,6 @@
 <?php
 
-require 'Bright.php';
+require EMBEDDED_DIR . '/BrightData.php';
 require EMBEDDED_DIR . '/classLoader/config/ClassLoaderConfigFactory.php';
 require EMBEDDED_DIR . '/classLoader/config/ClassLoaderConfig.php';
 require EMBEDDED_DIR . '/classLoader/config/DefaultClassLoaderConfig.php';
@@ -13,9 +13,9 @@ $classMapIO = new ClassMapIO($classMapDir);
 
 $classLoaderConfig = ClassLoaderConfigFactory::newInstance();
 
-$classLoader = new ClassLoader($classLoaderConfig->debugModeEnabled());
+$classLoader = new ClassLoader($classLoaderConfig->showClassLoads());
 
-if ($classLoaderConfig->devModeEnabled()) {
+if ($classLoaderConfig->forceClassRemap()) {
 
     $classLoader->registerAllAnalyzingBright();
     $classMapIO->saveClassMapFile($classLoader->getClasses());

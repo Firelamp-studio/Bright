@@ -36,7 +36,7 @@ class URL
     public static function getDomainName()
     {
         if (!self::$domainName)
-            self::$domainName = trim(Bright::getConfig()['conn']['domain_name'], '/ ');
+            self::$domainName = trim(BrightData::getConfig()['conn']['domain_name'], '/ ');
 
         return self::$domainName;
     }
@@ -60,7 +60,7 @@ class URL
         if (!self::$lang)
             self::$lang = strtolower(filter_input(INPUT_GET, 'lang', FILTER_SANITIZE_STRING));
 
-        $default_lang = Bright::getConfig()['preferences']['default_lang'];
+        $default_lang = BrightData::getConfig()['preferences']['default_lang'];
         $default_lang = $default_lang ? $default_lang : 'en';
 
         return self::$lang ? self::$lang : $default_lang;

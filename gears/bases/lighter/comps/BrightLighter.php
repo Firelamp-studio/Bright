@@ -41,13 +41,13 @@ class BrightLighter extends Lighter
         $confFile = BASE_DIR . $devTarget->getPath() . 'web.ini';
         $config = (new WebConfigParser($confFile))->parse();
 
-        $devMode = $config->isDevMode();
+        $devMode = $config->forcePageReload();
 
         $page = new PageImplementation($relatedElement,
             ($deployTarget->getTargetType() == TargetObtainer::DRAFT_REQUEST ?
-                ucfirst(str_replace('-', ' ', $deployTarget->getTarget())) . ' - ' . Bright::getConfig()['preferences']['site_title']
+                ucfirst(str_replace('-', ' ', $deployTarget->getTarget())) . ' - ' . BrightData::getConfig()['preferences']['site_title']
                 :
-                ucfirst(str_replace('-', ' ', $deployTarget->getTarget())) . ' - Bright')
+                ucfirst(str_replace('-', ' ', $deployTarget->getTarget())) . ' - BrightData')
 
             , $deployTarget->getTargetType() == TargetObtainer::DRAFT_REQUEST
         );

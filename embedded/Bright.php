@@ -3,19 +3,6 @@
 
 class Bright
 {
-    private static $config;
-
-    public static function getConfig()
-    {
-        if (!self::$config)
-            self::$config = parse_ini_file(__DIR__ . '/bright.ini', true, INI_SCANNER_TYPED);
-        return self::$config;
-    }
-
-    public static function isDev(): bool {
-        return !self::getConfig()['specs']['released'];
-    }
-
     /**
      * @var Core $core
      */
@@ -27,7 +14,7 @@ class Bright
             session_start();
 
 //        if (!isset($_SESSION['bright_db'])) {
-//            $db = new BrightDB(self::getConfig()['database']);
+//            $db = new BrightDB(BrightData::getConfig()['database']);
 //
 //            if (!$db->init()->getResult()) {
 //                http_response_code(500);
@@ -43,7 +30,7 @@ class Bright
 //                $db->connect();
 //        }
 
-        if (self::getConfig()['dev']['use_session_core']) {
+        if (BrightData::getConfig()['dev']['use_session_core']) {
             if (isset($_SESSION['bright_core'])) {
                 $this->core = $_SESSION['bright_core'];
             } else {

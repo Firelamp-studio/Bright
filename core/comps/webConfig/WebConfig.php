@@ -4,24 +4,24 @@
 class WebConfig
 {
     /**
-     * @var boolean $devMode
+     * @var boolean $forcePageReload
      */
-    private $devMode;
+    private $forcePageReload;
 
     /**
      * GearConfig constructor.
-     * @param bool $devMode
+     * @param bool $forcePageReload
      */
-    public function __construct(bool $devMode)
+    public function __construct(bool $forcePageReload)
     {
-        $this->devMode = $devMode;
+        $this->forcePageReload = $forcePageReload;
     }
 
     /**
      * @return bool
      */
-    public function isDevMode(): bool
+    public function forcePageReload(): bool
     {
-        return $this->devMode;
+        return $this->forcePageReload;
     }
 }

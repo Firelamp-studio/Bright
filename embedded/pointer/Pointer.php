@@ -29,7 +29,7 @@ class Pointer
 
         $this->draftMode = false;
 
-        $config = Bright::getConfig();
+        $config = BrightData::getConfig();
 
 
         /**

@@ -3,35 +3,35 @@
 class ClassLoaderConfig
 {
     /**
-     * @var bool $useClassMap
+     * @var bool $forceClassRemap
      */
-    private $useClassMap;
+    private $forceClassRemap;
 
     /**
-     * @var bool $debugMode
+     * @var bool $showClassLoads
      */
-    private $debugMode;
+    private $showClassLoads;
 
-    public function __construct(bool $useClassMap, bool $debugMode)
+    public function __construct(bool $forceClassRemap, bool $showClassLoads)
     {
-        $this->useClassMap = $useClassMap;
-        $this->debugMode = $debugMode;
+        $this->forceClassRemap = $forceClassRemap;
+        $this->showClassLoads = $showClassLoads;
     }
 
     /**
      * @return bool
      */
-    public function devModeEnabled(): bool
+    public function forceClassRemap(): bool
     {
-        return $this->useClassMap;
+        return $this->forceClassRemap;
     }
 
     /**
      * @return bool
      */
-    public function debugModeEnabled(): bool
+    public function showClassLoads(): bool
     {
-        return $this->debugMode;
+        return $this->showClassLoads;
     }
 
 
