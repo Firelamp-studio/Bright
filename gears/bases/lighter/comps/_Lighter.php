@@ -2,10 +2,23 @@
 
 namespace Bright;
 
+/**
+ * Class _Lighter
+ * @package Bright
+ */
 class _Lighter extends ELighter
 {
 
+    /**
+     * @var Core
+     * Injected joint
+     */
     public Core $core;
+
+    /**
+     * @var EBrazier
+     * Injected joint
+     */
     public EBrazier $brazier;
 
     /**

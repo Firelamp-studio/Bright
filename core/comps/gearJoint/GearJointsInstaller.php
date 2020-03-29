@@ -7,6 +7,8 @@ use ReflectionException;
 
 class GearJointsInstaller
 {
+    use EventDispatcher;
+
     /**
      * @var Core
      */
@@ -112,7 +114,7 @@ class GearJointsInstaller
                     }
 
                     $exposedClass = $overriddenJoint->getConfig()->getExposedClass();
-                    if (!$exposedClass or $type == $exposedClass) {
+                    if (!$exposedClass or $type == $exposedClass or $type == $exposedClass) {
                         $overrideProperty->setValue($gear, $overriddenJoint->procureGear());
                         $this->jointSetUp($overriddenJoint);
                     }

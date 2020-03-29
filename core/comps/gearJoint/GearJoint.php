@@ -1,4 +1,5 @@
 <?php
+
 namespace Bright;
 
 class GearJoint extends Joint
@@ -10,7 +11,9 @@ class GearJoint extends Joint
     {
         if (!$this->gear) {
             $gearImplementationClass = $this->config->getImplementationClass();
-            $this->gear = new $gearImplementationClass($this);
+            if ($gearImplementationClass)
+                $this->gear = ClassFactory::newInstance($gearImplementationClass);
+
         }
 
         return $this->gear;
