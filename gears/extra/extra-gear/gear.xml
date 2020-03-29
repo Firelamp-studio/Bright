@@ -1,3 +1,3 @@
-<gear id="extra-gear" implementation="ExtraGear" disabled="">
+<gear id="extra-gear" implementation="ExtraGear" ignore="">
     <joint gear="lighter" field="lighter"/>
 </gear>

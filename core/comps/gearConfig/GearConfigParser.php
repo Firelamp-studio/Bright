@@ -23,7 +23,7 @@ class GearConfigParser
 
             $fileXML = simplexml_load_file($this->filename);
 
-            if ($fileXML and $fileXML['id'] and $fileXML['implementation'] and (!$fileXML['disabled'] or !$fileXML['disabled']->__toString())) {
+            if ($fileXML and $fileXML['id'] and $fileXML['implementation'] and (!$fileXML['ignore'] or !$fileXML['ignore']->__toString())) {
 
 
                 $isBase = $fileXML->getName() == 'base' ? true : false;
