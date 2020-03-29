@@ -1,7 +1,7 @@
 <?php
+namespace Bright;
 
-
-class PageBuildFailedException extends Exception
+class PageBuildFailedException extends \Exception
 {
 
 }

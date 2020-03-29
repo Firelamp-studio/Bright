@@ -1,16 +1,17 @@
 <?php
+namespace Bright;
 
 class Pointer
 {
     /**
      * @var boolean $draftMode
      */
-    private $draftMode;
+    private bool $draftMode;
 
     /**
      * @var Core $core
      */
-    private $core;
+    private Core $core;
 
     /**
      * MirrorDispatcher constructor.
@@ -56,7 +57,7 @@ class Pointer
             //TODO: Draft mode visualization
         } else {
             try {
-                /** @var Lighter $lighter */
+                /** @var ELighter $lighter */
                 $lighter = $this->core->getGear('lighter');
                 echo $lighter->getPageRender()->getPage();
             } catch (PageNotFoundException $e) {

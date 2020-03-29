@@ -1,5 +1,6 @@
 <?php
 
+namespace Bright;
 
 class DevTargetObtainer extends TargetObtainer
 {

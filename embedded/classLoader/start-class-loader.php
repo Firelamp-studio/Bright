@@ -1,5 +1,7 @@
 <?php
 
+namespace Bright;
+
 require EMBEDDED_DIR . '/BrightData.php';
 require EMBEDDED_DIR . '/classLoader/config/ClassLoaderConfigFactory.php';
 require EMBEDDED_DIR . '/classLoader/config/ClassLoaderConfig.php';

@@ -1,5 +1,5 @@
 <?php
-
+namespace Bright;
 
 use ScssPhp\ScssPhp\Compiler;
 

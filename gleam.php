@@ -1,5 +1,7 @@
 <?php
 
+use Bright\Bright;
+
 function pretty_var_dump($var){
     highlight_string("<?php \$data = " . var_export($var, true) . "; ?>\n");
 }

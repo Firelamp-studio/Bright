@@ -1,12 +1,12 @@
 <?php
-
+namespace Bright;
 
 class WebConfigParser
 {
     /**
      * @var string $filename
      */
-    private $filename;
+    private string $filename;
 
     /**
      * GearConfigParser constructor.

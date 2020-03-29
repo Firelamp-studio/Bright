@@ -1,3 +1,3 @@
-<gear id="over-lighter" implementation="OverLighter" override="lighter" ignore="">
+<gear id="over-lighter" implementation="OverLighter" override="lighter" ignore="#">
     <override-joint field="lighter"/>
 </gear>

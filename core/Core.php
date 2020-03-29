@@ -1,4 +1,5 @@
 <?php
+namespace Bright;
 
 class Core
 {
@@ -7,37 +8,37 @@ class Core
     /**
      * @var Joint[]
      */
-    protected $gearJoints = [];
+    protected array $gearJoints = [];
 
     /**
      * @var Joint[]
      */
-    protected $baseJointsBAK = [];
+    protected array $baseJointsBAK = [];
 
     /**
      * @var Joint[]
      */
-    protected $extraJointsBAK = [];
+    protected array $extraJointsBAK = [];
 
     /**
      * @var Joint[]
      */
-    protected $activeExtraJointsBAK = [];
+    protected array $activeExtraJointsBAK = [];
 
     /**
      * @var Joint[]
      */
-    protected $activeBaseJointsBAK = [];
+    protected array $activeBaseJointsBAK = [];
 
     /**
      * @var Joint[]
      */
-    protected $originBaseJointsBAK = [];
+    protected array $originBaseJointsBAK = [];
 
     /**
      * @var Joint[]
      */
-    protected $originExtraJointsBAK = [];
+    protected array $originExtraJointsBAK = [];
 
     /**
      * Core constructor.

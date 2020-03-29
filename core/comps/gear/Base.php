@@ -1,6 +1,6 @@
 <?php
+namespace Bright;
 
-
-abstract class Base extends Gear
+interface Base extends Gear
 {
 }

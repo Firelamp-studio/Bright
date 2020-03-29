@@ -1,4 +1,4 @@
-<base id="lighter" implementation="BrightLighter" expose="Lighter">
+<base id="lighter" implementation="Bright\_Lighter" expose="Bright\ELighter">
     <core-joint field="core"/>
     <joint gear="brazier" field="brazier"/>
 </base>

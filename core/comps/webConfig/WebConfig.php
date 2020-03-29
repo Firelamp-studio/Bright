@@ -1,12 +1,12 @@
 <?php
-
+namespace Bright;
 
 class WebConfig
 {
     /**
      * @var boolean $forcePageReload
      */
-    private $forcePageReload;
+    private bool $forcePageReload;
 
     /**
      * GearConfig constructor.

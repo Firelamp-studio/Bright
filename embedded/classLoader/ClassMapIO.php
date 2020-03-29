@@ -1,11 +1,12 @@
 <?php
+namespace Bright;
 
 class ClassMapIO
 {
     /**
      * @var string $saveDir
      */
-    private $saveDir;
+    private string $saveDir;
 
     public function __construct(string $saveDir)
     {

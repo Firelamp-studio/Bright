@@ -1,16 +1,12 @@
 <?php
 
-class BrightLighter extends Lighter
-{
-    /**
-     * @var Core
-     */
-    public $core;
+namespace Bright;
 
-    /**
-     * @var Brazier
-     */
-    public $brazier;
+class _Lighter extends ELighter
+{
+
+    public Core $core;
+    public EBrazier $brazier;
 
     /**
      * @return PageLighter
@@ -64,5 +60,10 @@ class BrightLighter extends Lighter
         }
 
         return new PageLighter($page, $pageDir);
+    }
+
+    function init()
+    {
+        // TODO: Implement init() method.
     }
 }

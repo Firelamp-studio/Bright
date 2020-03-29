@@ -1,16 +1,19 @@
 <?php
 
 
-class TopLighter extends Lighter implements EventListener
+use Bright\ELighter;
+use Bright\EventListener;
+use Bright\PageLighter;
+
+class TopLighter extends ELighter implements EventListener
 {
     /**
      * @var OverLighter $lighter
      */
-    public $lighter;
+    public OverLighter $lighter;
 
     public function init()
     {
-        parent::init();
         $this->lighter->registerListener($this);
     }
 

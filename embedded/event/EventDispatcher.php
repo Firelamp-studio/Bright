@@ -1,12 +1,15 @@
 <?php
+namespace Bright;
 
+use ReflectionClass;
+use ReflectionException;
 
 trait EventDispatcher
 {
     /**
      * @var EventListener[]
      */
-    private $listeners = [];
+    private array $listeners = [];
 
     /**
      * @param EventListener $listener
@@ -32,7 +35,7 @@ trait EventDispatcher
             $listener->onEvent($eventName, $args);
 
             try {
-                $method = (new \ReflectionClass($listener))->getMethod($eventName);
+                $method = (new ReflectionClass($listener))->getMethod($eventName);
                 if ($method) {
                     $method->invokeArgs($listener, $args);
                 }

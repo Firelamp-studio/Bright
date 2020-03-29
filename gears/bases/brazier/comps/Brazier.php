@@ -1,15 +1,16 @@
 <?php
+namespace Bright;
 
 use ScssPhp\ScssPhp\Compiler;
 use ScssPhp\ScssPhp\Exception\CompilerException;
 use ScssPhp\ScssPhp\Formatter\Compressed;
 
-class BrightBrazier extends Brazier
+class Brazier extends EBrazier
 {
     /**
      * @var Core
      */
-    public $core;
+    public Core $core;
 
     /**
      * @param TargetResult $devTarget
@@ -177,4 +178,8 @@ class BrightBrazier extends Brazier
         file_put_contents($pageFileDeploy, $htmlContent);
     }
 
+    function init()
+    {
+        // TODO: Implement init() method.
+    }
 }

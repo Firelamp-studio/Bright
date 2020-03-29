@@ -1,16 +1,17 @@
 <?php
+namespace Bright;
 
 class ClassLoaderConfig
 {
     /**
      * @var bool $forceClassRemap
      */
-    private $forceClassRemap;
+    private bool $forceClassRemap;
 
     /**
      * @var bool $showClassLoads
      */
-    private $showClassLoads;
+    private bool $showClassLoads;
 
     public function __construct(bool $forceClassRemap, bool $showClassLoads)
     {

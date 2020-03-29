@@ -1,17 +1,18 @@
 <?php
 
+namespace Bright;
 
 class PageLighter
 {
     /**
      * @var PageImplementation $page
      */
-    private $page;
+    private PageImplementation $page;
 
     /**
      * @var string $pageDir
      */
-    private $pageDir;
+    private string $pageDir;
 
     /**
      * PageRender constructor.

@@ -1,12 +1,12 @@
 <?php
-
+namespace Bright;
 
 class Bright
 {
     /**
      * @var Core $core
      */
-    private $core;
+    private Core $core;
 
     public function __construct()
     {

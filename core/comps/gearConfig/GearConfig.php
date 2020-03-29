@@ -1,40 +1,40 @@
 <?php
-
+namespace Bright;
 
 class GearConfig
 {
     /**
      * @var string
      */
-    private $ID;
+    private string $ID;
     /**
      * @var string
      */
-    protected $implementationClass;
+    protected string $implementationClass;
     /**
      * @var bool
      */
-    protected $isBase;
+    protected bool $isBase;
     /**
      * @var string
      */
-    private $exposedInterface;
+    private string $exposedInterface;
     /**
      * @var string
      */
-    private $overrideID;
+    private string $overrideID;
     /**
      * @var string
      */
-    private $coreJointFieldName;
+    private string $coreJointFieldName;
     /**
      * @var string
      */
-    private $overriddenJointFieldName;
+    private string $overriddenJointFieldName;
     /**
      * @var array $joints
      */
-    private $joints;
+    private array $joints;
 
     /**
      * GearConfig constructor.

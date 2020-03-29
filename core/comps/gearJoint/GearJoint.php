@@ -1,5 +1,5 @@
 <?php
-
+namespace Bright;
 
 class GearJoint extends Joint
 {

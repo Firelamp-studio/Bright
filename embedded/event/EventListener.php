@@ -1,4 +1,5 @@
 <?php
+namespace Bright;
 
 interface EventListener
 {

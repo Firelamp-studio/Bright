@@ -1,22 +1,23 @@
 <?php
 
+namespace Bright;
 
 class TargetResult
 {
     /**
      * @var string $path
      */
-    private $path;
+    private string $path;
 
     /**
      * @var string $target
      */
-    private $target;
+    private string $target;
 
     /**
      * @var string $targetType
      */
-    private $targetType;
+    private string $targetType;
 
     /**
      * TargetResult constructor.

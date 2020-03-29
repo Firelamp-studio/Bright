@@ -1,8 +1,11 @@
 <?php
 
+namespace Bright;
 
-abstract class Brazier extends Base
+abstract class EBrazier implements Base
 {
+    use EventDispatcher;
+
     /**
      * @param TargetResult $devTarget
      * @param TargetResult $deployTarget

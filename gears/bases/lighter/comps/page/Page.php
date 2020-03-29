@@ -1,5 +1,7 @@
 <?php
 
+namespace Bright;
+
 interface Page
 {
     /**

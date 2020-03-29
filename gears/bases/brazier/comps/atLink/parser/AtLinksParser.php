@@ -1,4 +1,5 @@
 <?php
+namespace Bright;
 
 abstract class AtLinksParser
 {

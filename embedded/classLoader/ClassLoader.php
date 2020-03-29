@@ -1,21 +1,22 @@
 <?php
+namespace Bright;
 
 class ClassLoader
 {
     /**
      * @var array $classes
      */
-    private $classes;
+    private array $classes;
 
     /**
-     * @var bool $debugMode
+     * @var bool $showClassLoads
      */
-    private $debugMode;
+    private bool $showClassLoads;
 
-    public function __construct(bool $debugMode)
+    public function __construct(bool $showClassLoads)
     {
         $this->classes = [];
-        $this->debugMode = $debugMode;
+        $this->showClassLoads = $showClassLoads;
     }
 
     /**
@@ -31,7 +32,7 @@ class ClassLoader
      */
     public function registerAllAnalyzingBright(): void
     {
-        foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator(BASE_DIR, FilesystemIterator::SKIP_DOTS)) as $filename) {
+        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator(BASE_DIR, \FilesystemIterator::SKIP_DOTS)) as $filename) {
             if (pathinfo($filename, PATHINFO_EXTENSION) == 'php') {
                 $className = ClassAnalyzer::getClassNameFromFile($filename);
                 if ($className)
@@ -47,7 +48,7 @@ class ClassLoader
     {
         spl_autoload_register(function ($class) {
 
-            if ($this->debugMode) {
+            if ($this->showClassLoads) {
                 echo "<pre>[{$class}] => {$this->classes[$class]}</pre>";
             }
 

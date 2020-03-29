@@ -1,12 +1,13 @@
 <?php
 
+namespace Bright;
 
 class PageHelper
 {
     /**
      * @var bool $isDraftPage
      */
-    private $isDraftPage;
+    private bool $isDraftPage;
 
     /**
      * PageHelper constructor.

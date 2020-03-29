@@ -1,16 +1,15 @@
 <?php
 
+use Bright\ELighter;
+use Bright\EventListener;
+use Bright\Gear;
 
-class ExtraGear extends Gear implements EventListener
+class ExtraGear implements Gear, EventListener
 {
-    /**
-     * @var Lighter $lighter
-     */
-    public $lighter;
+    public ELighter $lighter;
 
     public function init()
     {
-        parent::init();
         $this->lighter->registerListener($this);
     }
 

@@ -1,5 +1,6 @@
 <?php
 
+namespace Bright;
 
 /**
  * Class PageImplementation
@@ -9,27 +10,27 @@ class PageImplementation implements Page
     /**
      * @var string $title
      */
-    private $title;
+    private string $title;
 
     /**
      * @var array $htmlAttrs
      */
-    private $htmlAttrs;
+    private array $htmlAttrs;
 
     /**
      * @var array $bodyAttrs
      */
-    private $bodyAttrs;
+    private array $bodyAttrs;
 
     /**
      * @var string $additionalHeadCode
      */
-    private $additionalHeadCode;
+    private string $additionalHeadCode;
 
     /**
      * @var PageHelper $helper
      */
-    private $helper;
+    private PageHelper $helper;
 
     /**
      * @var Gear|Core $relatedElement

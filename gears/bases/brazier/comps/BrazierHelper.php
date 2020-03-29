@@ -1,5 +1,5 @@
 <?php
-
+namespace Bright;
 
 class BrazierHelper
 {

@@ -1,21 +1,22 @@
 <?php
+namespace Bright;
 
 class DBConnResult
 {
     /**
      * @var bool $result
      */
-    private $result;
+    private bool $result;
 
     /**
      * @var string $message
      */
-    private $error_message;
+    private string $error_message;
 
     /**
      * @var int $error_number
      */
-    private $error_number;
+    private int $error_number;
 
     /**
      * DBConnResult constructor.

@@ -1,28 +1,28 @@
 <?php
-
+namespace Bright;
 
 abstract class Joint
 {
     /**
      * @var Joint
      */
-    protected $overriderJoint;
+    protected ?Joint $overriderJoint;
     /**
      * @var Gear
      */
-    protected $gear;
+    protected ?Gear $gear;
     /**
      * @var bool
      */
-    protected $enabled;
+    protected bool $enabled;
     /**
      * @var string
      */
-    protected $ID;
+    protected string $ID;
     /**
      * @var GearConfig
      */
-    protected $config;
+    protected GearConfig $config;
 
     /**
      * Joint constructor.

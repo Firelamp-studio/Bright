@@ -1,4 +1,5 @@
 <?php
+namespace Bright;
 
 use ScssPhp\ScssPhp\Compiler;
 use ScssPhp\ScssPhp\Exception\CompilerException;

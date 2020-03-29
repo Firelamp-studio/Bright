@@ -1,16 +1,21 @@
 <?php
 
+namespace Bright;
+
+use ReflectionClass;
+use ReflectionException;
+
 class GearJointsInstaller
 {
     /**
      * @var Core
      */
-    private $core;
+    private Core $core;
 
     /**
      * @var GearJoint[]
      */
-    private $gearJoints;
+    private array $gearJoints;
 
     /**
      * GearsManagerInstaller constructor.
@@ -89,15 +94,15 @@ class GearJointsInstaller
     {
         $gear = $joint->procureGear();
         try {
-            $reflection = new \ReflectionClass($gear);
+            $reflection = new ReflectionClass($gear);
 
             // INJECT RECURSIVE OVERRIDE-JOINT IF EXIST
             if ($joint->getConfig()->getOverrideID() and $joint->getConfig()->getOverriddenJointFieldName()) {
 
                 $overrideProperty = $reflection->getProperty($joint->getConfig()->getOverriddenJointFieldName());
 
-                if (preg_match('/@var\s+([^\s]+)/', $overrideProperty->getDocComment(), $matches)) {
-                    list(, $type) = $matches;
+                if ($overrideProperty->hasType()) {
+                    $type = $overrideProperty->getType();
 
                     $overriddenJoint = $this->gearJoints[$joint->getConfig()->getOverrideID()];
                     if (!$overriddenJoint) {
@@ -118,8 +123,8 @@ class GearJointsInstaller
             $coreJointField = $joint->getConfig()->getCoreJointFieldName();
             if ($coreJointField) {
                 $coreProperty = $reflection->getProperty($coreJointField);
-                if ($coreProperty && preg_match('/@var\s+([^\s]+)/', $coreProperty->getDocComment(), $matches)) {
-                    list(, $type) = $matches;
+                if (isset($coreProperty) && $coreProperty->hasType()) {
+                    $type = $coreProperty->getType();
                     if ($coreProperty and $type == Core::class) {
                         $coreProperty->setValue($gear, $this->core);
                     }
@@ -139,8 +144,8 @@ class GearJointsInstaller
                         die;
                     }
 
-                    if ($enabledJoint && preg_match('/@var\s+([^\s]+)/', $property->getDocComment(), $matches)) {
-                        list(, $type) = $matches;
+                    if ($enabledJoint && $property->hasType()) {
+                        $type = $property->getType();
 
                         if (!$enabledJoint->getConfig()->getExposedClass() or $type == $enabledJoint->getConfig()->getExposedClass())
                             $property->setValue($gear, $enabledJoint->procureGear());
